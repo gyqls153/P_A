@@ -1,12 +1,10 @@
-import React, { Component } from 'react';
+import React from 'react';
 // import { useMediaQuery } from 'react-responsive';
 import './App.css';
 import './index.css';
 
 
-class App extends Component {
-    
-    render(){
+function App() {
         return (
             <div className="App">
                 <div className="app-inner-grid">
@@ -146,10 +144,9 @@ class App extends Component {
                         </div>
                     </footer>
                 </div>
-                
+            {/* compiled */}
             </div>
         );
     }
-}
 
 export default App;
