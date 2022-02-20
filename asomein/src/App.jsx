@@ -139,6 +139,9 @@ function App() {
                                     </td>
                                 </tr>
                             </table>
+                            <div className="more">
+                                <a href="!#">더보기<br />+</a>
+                            </div>
                         </div>
                     </div>
 
@@ -221,7 +224,6 @@ function App() {
                         </div>
                     </footer>
                 </div>
-            {/* compiled */}
             </div>
         );
     }

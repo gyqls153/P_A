@@ -129,9 +129,7 @@
   background: url(./assets/images/icon-search-main.png)9px 10px no-repeat;/*icon-location*/
 }
 /*table notice*/
-.table-contents{
-  width: 100%;
-}
+.table-contents{ width: 100%; }
 table{
   min-width: 100%;
   border-collapse: collapse;
@@ -144,7 +142,8 @@ td{ width: 25%; height: 340px; border: 1px solid #231815; padding: 30px;}
 .table-contents td h3{ font-size: 25px; font-weight: 500; margin: 34px 0 25px 0;}
 .table-contents td p { line-height: 20px; font-size: 13px; letter-spacing: 1px; margin: 0 0 50px 0;}
 .table-contents td .list-num{ font-size: 11px;}
-
+.more{ text-align: center; padding: 40px 0 40px 0; }
+.more a{ font-size: 14px; text-decoration: none; color: #231815;}
 /*user comment and interview section*/
 .contents-interview{
   min-width: 100%;
@@ -166,7 +165,6 @@ td{ width: 25%; height: 340px; border: 1px solid #231815; padding: 30px;}
 }
 .comments-box ul li:nth-child(2)::before{
   margin: 0 auto;
-  /* background: url(./assets/images/); */
 }
 .comments-box ul li:nth-child(2){margin: 0 50px;}
 .comments-box ul li:hover{
@@ -181,4 +179,6 @@ td{ width: 25%; height: 340px; border: 1px solid #231815; padding: 30px;}
   font-size: 20px;
   background: url(./assets/images/icons-subscribe.png)no-repeat;
 }
- 
+
+/* footer */
+footer{width: 100%; border: 1px solid red;}
