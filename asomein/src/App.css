@@ -142,7 +142,7 @@ td{ width: 25%; height: 340px; border: 1px solid #231815; padding: 30px;}
 .table-contents td h3{ font-size: 25px; font-weight: 500; margin: 34px 0 25px 0;}
 .table-contents td p { line-height: 20px; font-size: 13px; letter-spacing: 1px; margin: 0 0 50px 0;}
 .table-contents td .list-num{ font-size: 11px;}
-.more{ text-align: center; padding: 40px 0 40px 0; }
+.more{ text-align: center; padding: 20px 0 60px 0; }
 .more a{ font-size: 14px; text-decoration: none; color: #231815;}
 /*user comment and interview section*/
 .contents-interview{
