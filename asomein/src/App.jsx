@@ -12,11 +12,11 @@ function App() {
                         <div className="service-introduce">
                             어썸인 서비스 소개
                         </div>
-                        <ul className="header-menu-list">
-                            <li><span></span><a href="#!">로그인</a></li>
-                            <li><span></span><a href="#!">회원가입</a></li>
-                            <li><span></span><a href="#!">장바구니</a></li>
-                        </ul>
+                        <nav className="header-menu-list">
+                            <a href="#!">로그인</a>
+                            <a href="#!">회원가입</a>
+                            <a href="#!">장바구니</a>
+                        </nav>
                     </header>
 
                     <div className="top-contents">
@@ -45,13 +45,13 @@ function App() {
                                         <option>Only금융</option>
                                     </select>
                                     <input id="list-search" type="text" name="search-field" />
-                                    <button type="submit" className="seachBtn"><i className="icons-search">검색잇콘</i></button>
+                                    <button type="submit" className="seachBtn"></button>
                                 </div>
                             </div>
                             
                             <div className="right-content-top-bbs">
-                                <p>어썸레터 <br />구독하기</p>
-                                <select id="" className="">
+                                <a href="#!">어썸레터 <br />구독하기</a>
+                                <select id="" className="all-dropdown-selbox">
                                     <option selected>전체보기</option>
                                     <option>Only부동산</option>
                                     <option>Only금융</option>
