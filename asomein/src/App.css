@@ -131,13 +131,19 @@
 /*table notice*/
 .table-contents{
   width: 100%;
-  border: 1px solid red;
 }
 table{
   min-width: 100%;
   border-collapse: collapse;
+  border: 1px solid #231815;
 }
-td{ width: 25%; height: 340px; border: 1px solid #231815;  }
+td{ width: 25%; height: 340px; border: 1px solid #231815; padding: 30px;}
+.table-contents table td:hover{ background-color: wheat;}
+.table-contents td .icon-01{ padding: 17px 25px; background: url(./assets/images/icon-table-home.png)no-repeat; }
+.table-contents td .icon-02{ padding: 17px 25px; background: url(./assets/images/icon-table-finance.png)no-repeat; }
+.table-contents td h3{ font-size: 25px; font-weight: 500; margin: 34px 0 25px 0;}
+.table-contents td p { line-height: 20px; font-size: 13px; letter-spacing: 1px; margin: 0 0 50px 0;}
+.table-contents td .list-num{ font-size: 11px;}
 
 /*user comment and interview section*/
 .contents-interview{

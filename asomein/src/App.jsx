@@ -61,22 +61,82 @@ function App() {
                         <div className="table-contents">
                             <table>
                                 <tr>
-                                    <td>첫번째 칸1</td>
-                                    <td>두번째 칸2</td>
-                                    <td>첫번째 칸3</td>
-                                    <td>첫번째 칸4</td>
+                                    <td>
+                                        <span className="icon-01"></span>
+                                        <h3>현대중공업 공모주 할까요?(feat,9월 공모주 투자전략)</h3>
+                                        <p>삼성중공업은 무상감자로 제외, 한국조선해양은 현대중공업의 모회사로 제외, 현대미포조선은 모회사와의... 현대중공업 공모주 청약 청약일정...</p>
+                                        <span className="list-num">220128</span>
+                                    </td>
+                                    <td>
+                                        <span className="icon-02"></span>
+                                        <h3>현대중공업 공모주 할까요?(feat,9월 공모주 투자전략)</h3>
+                                        <p>삼성중공업은 무상감자로 제외, 한국조선해양은 현대중공업의 모회사로 제외, 현대미포조선은 모회사와의... 현대중공업 공모주 청약 청약일정...</p>
+                                        <span className="list-num">220128</span>
+                                    </td>
+                                    <td>
+                                        <span className="icon-01"></span>
+                                        <h3>현대중공업 공모주 할까요?(feat,9월 공모주 투자전략)</h3>
+                                        <p>삼성중공업은 무상감자로 제외, 한국조선해양은 현대중공업의 모회사로 제외, 현대미포조선은 모회사와의... 현대중공업 공모주 청약 청약일정...</p>
+                                        <span className="list-num">220128</span>
+                                    </td>
+                                    <td>
+                                        <span className="icon-02"></span>
+                                        <h3>현대중공업 공모주 할까요?(feat,9월 공모주 투자전략)</h3>
+                                        <p>삼성중공업은 무상감자로 제외, 한국조선해양은 현대중공업의 모회사로 제외, 현대미포조선은 모회사와의... 현대중공업 공모주 청약 청약일정...</p>
+                                        <span className="list-num">220128</span>
+                                    </td>
                                 </tr>
                                 <tr>
-                                    <td>첫번째 칸5</td>
-                                    <td>두번째 칸6</td>
-                                    <td>세번째 칸</td>
-                                    <td>네번째 칸</td>
+                                    <td>
+                                        <span className="icon-01"></span>
+                                        <h3>현대중공업 공모주 할까요?(feat,9월 공모주 투자전략)</h3>
+                                        <p>삼성중공업은 무상감자로 제외, 한국조선해양은 현대중공업의 모회사로 제외, 현대미포조선은 모회사와의... 현대중공업 공모주 청약 청약일정...</p>
+                                        <span className="list-num">220128</span>
+                                    </td>
+                                    <td>
+                                        <span className="icon-02"></span>
+                                        <h3>현대중공업 공모주 할까요?(feat,9월 공모주 투자전략)</h3>
+                                        <p>삼성중공업은 무상감자로 제외, 한국조선해양은 현대중공업의 모회사로 제외, 현대미포조선은 모회사와의... 현대중공업 공모주 청약 청약일정...</p>
+                                        <span className="list-num">220128</span>
+                                    </td>
+                                    <td>
+                                        <span className="icon-02"></span>
+                                        <h3>현대중공업 공모주 할까요?(feat,9월 공모주 투자전략)</h3>
+                                        <p>삼성중공업은 무상감자로 제외, 한국조선해양은 현대중공업의 모회사로 제외, 현대미포조선은 모회사와의... 현대중공업 공모주 청약 청약일정...</p>
+                                        <span className="list-num">220128</span>
+                                    </td>
+                                    <td>
+                                        <span className="icon-02"></span>
+                                        <h3>현대중공업 공모주 할까요?(feat,9월 공모주 투자전략)</h3>
+                                        <p>삼성중공업은 무상감자로 제외, 한국조선해양은 현대중공업의 모회사로 제외, 현대미포조선은 모회사와의... 현대중공업 공모주 청약 청약일정...</p>
+                                        <span className="list-num">220128</span>
+                                    </td>
                                 </tr>
                                 <tr>
-                                    <td>첫번째 칸7</td>
-                                    <td>두번째 칸8</td>
-                                    <td>첫번째 칸7</td>
-                                    <td>두번째 칸8</td>
+                                    <td>
+                                        <span className="icon-01"></span>
+                                        <h3>현대중공업 공모주 할까요?(feat,9월 공모주 투자전략)</h3>
+                                        <p>삼성중공업은 무상감자로 제외, 한국조선해양은 현대중공업의 모회사로 제외, 현대미포조선은 모회사와의... 현대중공업 공모주 청약 청약일정...</p>
+                                        <span className="list-num">220128</span>
+                                    </td>
+                                    <td>
+                                        <span className="icon-02"></span>
+                                        <h3>현대중공업 공모주 할까요?(feat,9월 공모주 투자전략)</h3>
+                                        <p>삼성중공업은 무상감자로 제외, 한국조선해양은 현대중공업의 모회사로 제외, 현대미포조선은 모회사와의... 현대중공업 공모주 청약 청약일정...</p>
+                                        <span className="list-num">220128</span>
+                                    </td>
+                                    <td>
+                                        <span className="icon-01"></span>
+                                        <h3>현대중공업 공모주 할까요?(feat,9월 공모주 투자전략)</h3>
+                                        <p>삼성중공업은 무상감자로 제외, 한국조선해양은 현대중공업의 모회사로 제외, 현대미포조선은 모회사와의... 현대중공업 공모주 청약 청약일정...</p>
+                                        <span className="list-num">220128</span>
+                                    </td>
+                                    <td>
+                                        <span className="icon-02"></span>
+                                        <h3>현대중공업 공모주 할까요?(feat,9월 공모주 투자전략)</h3>
+                                        <p>삼성중공업은 무상감자로 제외, 한국조선해양은 현대중공업의 모회사로 제외, 현대미포조선은 모회사와의... 현대중공업 공모주 청약 청약일정...</p>
+                                        <span className="list-num">220128</span>
+                                    </td>
                                 </tr>
                             </table>
                         </div>
