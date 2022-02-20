@@ -188,11 +188,11 @@ function App() {
                     <footer> 
                         <div className="footer-bottom">
                             <div className="footer-bottom-info">
-                                <ul className="footer-bottom-menu">
-                                    <li><a href="#!">안전구매(에스크로)서비스 가맹점</a></li>
-                                    <li><a href="#!">이용약관</a></li>
-                                    <li><a href="#!">개인정보처리방침</a></li>
-                                </ul>
+                                <div className="footer-bottom-menu">
+                                    <a href="#!">안전구매(에스크로)서비스 가맹점</a>
+                                    <a href="#!">이용약관</a>
+                                    <a href="#!">개인정보처리방침</a>
+                                </div>
                                 <ul className="footer-bottom-info">
                                     <li>상호: (주)어썸인</li>  
                                     <li>대표: 성선화</li>
@@ -210,17 +210,11 @@ function App() {
                                 </ul>
                             </div>
                             <div className="footer-sns">
-                                <a className="footer-bottom-sns" href="#!">
-                                    <i className="icon-foot-sns-insta">인스타</i>
-                                </a>
-                                <a className="footer-bottom-sns" href="#!">
-                                    <i className="icon-foot-sns-youtube">유튜브</i>
-                                </a>
-                                <a className="footer-bottom-sns" href="#!">
-                                    <i className="icon-foot-sns-cafe">카-페</i>
-                                </a>
+                                <a className="foot-insta" href="#!"></a>
+                                <a className="foot-youtube" href="#!"></a>
+                                <a className="foot-cafe" href="#!"></a>
                             </div>
-                            <div className="footer-text-logo">Logoimg</div>
+                            <span className="footer-text-logo"></span>
                         </div>
                     </footer>
                 </div>

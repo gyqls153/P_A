@@ -181,4 +181,24 @@ td{ width: 25%; height: 340px; border: 1px solid #231815; padding: 30px;}
 }
 
 /* footer */
-footer{width: 100%; border: 1px solid red;}
+footer{width: 100%; border: 1px solid red;padding: 22px 0;}
+.footer-bottom{ display: inline-flex;}
+.footer-bottom-info{
+  max-width: 100%;
+}
+.footer-bottom-menu{
+  border: 1px solid red; 
+}
+.footer-bottom-menu a{ text-decoration: none; color: #231815; cursor: pointer;}
+.footer-bottom-menu a:nth-child(2)::before{ content: "";font-size: 13px;  text-align: center; border-right: 2px solid #231815; margin: 0 20px; }
+.footer-bottom-menu a:nth-child(2)::after{ content: ""; font-size: 13px;  text-align: center; border-left: 2px solid #231815; margin: 0 20px; }
+.footer-bottom-menu a:nth-child(2){padding: 20px; }
+
+.footer-sns{width:137px; border: 1px solid red; }
+.footer-sns a{ display: inline-flex; padding:18px 20px;}
+.footer-sns a:nth-child(1){ background: url(./assets/images/icon-sns-instagram.png) no-repeat; }
+.footer-sns a:nth-child(2){ background: url(./assets/images/icon-sns-youtube.png) no-repeat; margin: 0 6px;}
+.footer-sns a:nth-child(3){ background: url(./assets/images/icon-sns-Cafe.png) no-repeat; }
+.footer-text-logo{
+  padding: 15px 80px;
+  background: url(./assets/images/footer-logo.png)0px 2px no-repeat;}
