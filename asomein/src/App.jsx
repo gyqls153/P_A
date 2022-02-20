@@ -179,13 +179,14 @@ function App() {
                             </ul>
                         </nav>
                         <div className="community-table">
-                            <table>
+                            {/* <table>
                                 <td></td>
-                            </table>
+                            </table> */}
                         </div>
                     </div>
 
-                    <footer> 
+                    <footer>
+                        <hr /> 
                         <div className="footer-bottom">
                             <div className="foot-bottom-inner">
                                 <div className="footer-bottom-menu">
