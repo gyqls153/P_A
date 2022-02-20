@@ -204,7 +204,7 @@ function App() {
                                     <li>주소: 서울특별시 서초구 강남대로51길 10, 비1층 106-218호(서초동,강남효성해링턴타워)</li>
                                     <li>사업자등록번호: 585-87-01608</li>
                                 </ul>
-                                <ul className="footer-bottom-">
+                                <ul className="footer-bottom-sale">
                                     <li>통신판매: 제2020-서울서초-3093호</li>
                                     <li>호스팅제공자: (주)식스샵</li>
                                 </ul>
