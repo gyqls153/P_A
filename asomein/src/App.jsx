@@ -187,7 +187,7 @@ function App() {
 
                     <footer> 
                         <div className="footer-bottom">
-                            <div className="footer-bottom-info">
+                            <div className="foot-bottom-inner">
                                 <div className="footer-bottom-menu">
                                     <a href="#!">안전구매(에스크로)서비스 가맹점</a>
                                     <a href="#!">이용약관</a>
