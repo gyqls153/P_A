@@ -60,7 +60,24 @@ function App() {
                         </div>
                         <div className="table-contents">
                             <table>
-
+                                <tr>
+                                    <td>첫번째 칸1</td>
+                                    <td>두번째 칸2</td>
+                                    <td>첫번째 칸3</td>
+                                    <td>첫번째 칸4</td>
+                                </tr>
+                                <tr>
+                                    <td>첫번째 칸5</td>
+                                    <td>두번째 칸6</td>
+                                    <td>세번째 칸</td>
+                                    <td>네번째 칸</td>
+                                </tr>
+                                <tr>
+                                    <td>첫번째 칸7</td>
+                                    <td>두번째 칸8</td>
+                                    <td>첫번째 칸7</td>
+                                    <td>두번째 칸8</td>
+                                </tr>
                             </table>
                         </div>
                     </div>

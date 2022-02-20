@@ -128,6 +128,17 @@
   padding: 10px;
   background: url(./assets/images/icon-search-main.png)9px 10px no-repeat;/*icon-location*/
 }
+/*table notice*/
+.table-contents{
+  width: 100%;
+  border: 1px solid red;
+}
+table{
+  min-width: 100%;
+  border-collapse: collapse;
+}
+td{ width: 25%; height: 340px; border: 1px solid #231815;  }
+
 /*user comment and interview section*/
 .contents-interview{
   min-width: 100%;
