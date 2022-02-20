@@ -74,7 +74,7 @@
   color: #000;
 }
 .logo-text-style li:nth-child(1){font-size: 16px; letter-spacing: 2px;}
-.logo-text-style li:nth-child(2){font-size: 18px; text-align: center; letter-spacing: 2px; width: 70%;}
+.logo-text-style li:nth-child(2){font-size: 18px; text-align: center; letter-spacing: 2px; width: 69%;}
 .logo-text-style li:nth-child(3){font-size: 16px; letter-spacing: 2px;}
 
 .swiper-empty-img{
@@ -89,9 +89,9 @@
   min-width: 100%;
   display: inline-flex;
   height: 226px;
+  margin: 40px 0 60px 0;
 }
 .list-top-area ul{
-  max-width: 410px;
   min-height: 70%;
   padding-top: 50px ;
   font-weight: 600;
@@ -103,14 +103,16 @@
 .list-3d-menu li:nth-child(3){ background: url(./assets/images/icon-3D-finance.png) no-repeat; padding:40px 17px;}
 /* about Search Box */
 .search-inner-box{
-  min-width: 40%;
+  min-width: 47%;
   border: 1px solid red;
   display: inline-flex;
 }
 .bbs-list-search{
   display: inline-flex;
-  justify-items: center;
-  width: 390px;
+  position: relative;
+  align-items: stretch;
+  top: 80%;
+  left: 38%;
   height: 45px;
 }
 .bbs-list-search input{
@@ -126,7 +128,7 @@
   background: url(./assets/images/icon-search-main.png)9px 10px no-repeat;/*icon-location*/
 }
 .right-content-top-bbs{
-  display: inline-grid;
+  display: flexbox;
   border: 1px solid red;
 }
 .right-content-top-bbs a{

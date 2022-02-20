@@ -50,7 +50,7 @@ function App() {
                             </div>
                             
                             <div className="right-content-top-bbs">
-                                <a href="#!">어썸레터 <br />구독하기</a>
+                                <div className="subscribe-asomein"><a href="#!">어썸레터 <br />구독하기</a></div>
                                 <select id="" className="all-dropdown-selbox">
                                     <option selected>전체보기</option>
                                     <option>Only부동산</option>
