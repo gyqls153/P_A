@@ -176,7 +176,6 @@
 /* community */
 .contents-community{
   min-width: 100%;
-  border: 1px solid red;
 }
   .community-title{ display: flex; align-items: center; }
   .icon-community{ padding: 31px 35px; display: inline-flex; background: url(./assets/images/icon-community.png) no-repeat; }
@@ -198,7 +197,11 @@
     border: 1px solid #231815; 
   }
   .community-table{border: 1px solid #231815; padding: 30px;}
-
+  .community-table table{ min-width: 100%; }
+  .community-table table tr td{ border-bottom: 1px dotted #231815; padding: 20px 0 20px 0; }
+  
+  
+  
   /* footer */
 footer{width: 100%; padding: 22px 0;}
 .footer-bottom{ display: flex; padding: 12px 0 0 0; }
