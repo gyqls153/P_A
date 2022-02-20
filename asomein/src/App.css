@@ -1,38 +1,148 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App { background-color: #FFF4F0; }
+@media (prefers-reduced-motion: no-preference) {}
+.app-inner-grid{
+  padding: 93px 0 0 0;
+  width: 1360px;
+  margin: 0 auto;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+  min-width: 100%;
+  height: 37px;
+  display: inline-flex;
+  display:-webkit-inline-flex;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  /* font-size: calc(10px + 2vmin); */
+  color: #000;
+}
+.service-introduce::before{
+  content: "";
+  display: inline-flex;
+  padding: 11px 14px;
+  margin-right: 5px;
+  background: url(./assets/images/icon-asomein-logo.png)no-repeat;
+}
+.service-introduce{
+  width: 160px;
+  padding: 8px 20px;
+  display: flex;
+  font-size: 15px;
+  color: #FF557D;
+  border-radius: 30px;
+  background-color: rgba(255, 85, 125, 0.1);
 }
 
-.App-link {
-  color: #61dafb;
+/* 로그인,장바구니,회원가입 */
+.header-menu-list{
+  display: inline-block;
+  margin-left: 58%;
+}
+.header-menu-list li{
+  padding: 0px 20px;
+  display: inline-flex;
+}
+.header-menu-list li span{
+  display: block;
+  padding: 9px;
+  background: url(./assets/images/icon-login.png)no-repeat;
+}
+.header-menu-list li a{
+  color: black;
+}
+/*Top Logo section*/
+.top-contents{ 
+  min-width: 100%; 
+  height: 306px; 
+  border: 1px solid red; 
+}
+.big-logo-img{
+  width: 445px;
+  height: 185px;
+  margin: 36px auto;
+  background: url(./assets/images/main-Logo.png)no-repeat;
+}
+.logo-text-style{border-top: 5px solid #000;}
+.top-contents .logo-text-style li{
+  display: inline-block;
+  padding: 12px 0;
+  color: #000;
+}
+.logo-text-style li:nth-child(1){font-size: 16px; letter-spacing: 2px; margin-left: -10px;}
+.logo-text-style li:nth-child(2){font-size: 18px; text-align: center; letter-spacing: 2px; width: 850px;}
+.logo-text-style li:nth-child(3){font-size: 16px; letter-spacing: 2px;}
+
+.swiper-empty-img{
+  min-width: 100%;
+  min-height: 500px;
+  background: url(./assets/images/slide-img01.png) no-repeat;}
+
+.container-list{
+  display: inline;
+}
+.list-top-area{
+  min-width: 100%;
+  display: flex;
+  height: 226px;
+  border: 1px solid red;
+}
+.list-top-area ul{
+  max-width: 410px;
+  min-height: 70%;
+  padding-top: 50px ;
+  font-weight: 600;
+  border: 1px solid green;
+}
+.list-3d-menu li{ display: inline; padding: 40px; border: 1px solid red; }
+.list-3d-menu li:nth-child(1){ background: url(./assets/images/icon-3D-menu.png) no-repeat;}
+.list-3d-menu li:nth-child(2){ background: url(./assets/images/icon-3D-home.png) no-repeat; padding:40px 17px;}
+.list-3d-menu li:nth-child(3){ background: url(./assets/images/icon-3D-finance.png) no-repeat; padding:40px 17px;}
+
+.search-inner-box{
+  min-width: 40%;
+  border: 1px solid red;
+  display: inline-flex;
+}
+.bbs-list-search{
+  display: inline-flex;
+  justify-items: center;
+  width: 390px;
+  height: 45px;
+}
+.bbs-list-search input{
+  padding: 10px 55px;
+  background-color: transparent;
+  border-color: #231815;
+}
+.seachBtn{
+  width: 45px;
+  height: 45px;
+  border: 1px solid #231815;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.contents-interview{
+  min-width: 100%;
+  border: 1px solid red;
 }
+.interview-title{ display: inline-flex; align-items: center; }
+.icon-interview{ padding: 40px 25px; background: url(./assets/images/icon-interview.png) no-repeat; }
+.interview-title p{ font-size: 41px; font-weight: 400; margin-left: 20px;}
+.comments-box{
+  min-width: 100%;
+  border: 1px solid red;
+}
+.comments-box ul {display: flex; padding: 0;}
+.comments-box ul li{
+  width: 30%; /*410px*/
+  height: 462px;
+  border: 1px solid #231815;
+  background-color: #FFF4F0;
+}
+.comments-box ul li:nth-child(2)::before{
+  margin: 0 auto;
+  /* background: url(./assets/images/); */
+}
+.comments-box ul li:nth-child(2){margin: 0 50px;}
+.comments-box ul li:hover{
+  box-shadow: 6px 6px 4px rgba(255, 85, 125, 0.5);
+}
+ 
