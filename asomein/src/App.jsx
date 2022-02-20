@@ -169,20 +169,62 @@ function App() {
                     </div>
 
                     <div className="contents-community">
-                        <nav className='community-menu-tab'>
-                            <ul>
-                                <li>공지사항/새소식</li>
-                                <li>경제뉴스</li>
-                                <li>어썸인 YOU 퀴즈</li>
-                                <li>재테크수다방</li>
-                                <li>구독후기</li>
-                            </ul>
-                        </nav>
-                        <div className="community-table">
-                            {/* <table>
-                                <td></td>
-                            </table> */}
+                        <div className="community-inner-title">
+                            <div className="community-title">
+                                <i className="icon-community"></i>
+                                <p>COMMUNITY</p>
+                            </div>
+                            <nav className="community-bbs-tab tabs">
+                                <ul>
+                                    <li className="active" rel="tab1">공지사항/새소식</li>
+                                    <li rel="tab2">경제뉴스</li>
+                                    <li rel="tab3">어썸인 YOU 퀴즈</li>
+                                    <li rel="tab4">재테크수다방</li>
+                                    <li rel="tab5">구독후기</li>
+                                </ul>
+                            </nav>
                         </div>
+                        <div className="community-table">
+                            <table>
+                                <tr className="tab">
+                                    <td>
+                                        <span>[설문]</span> 
+                                        <h3 id="title" className="">어썸인 Brand new 로고를 골라주세요.</h3>
+                                        <p>어썸인의 새 로고를 런칭하려고 합니다! 그동안 어썸 레터를 구독해주셨던 열북이들에게 도움을 구해요!!
+                                        어떤 로고가 우리 어썸 경제 뉴스 레터와 잘 어울러지나요?! 댓글에 숫자로 의견 남겨주세요 ^^</p>
+                                        <span className="list-num">220125</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <span>[설문]</span> 
+                                        <h3 id="title" className="">어썸인 Brand new 로고를 골라주세요.</h3>
+                                        <p>어썸인의 새 로고를 런칭하려고 합니다! 그동안 어썸 레터를 구독해주셨던 열북이들에게 도움을 구해요!!
+                                        어떤 로고가 우리 어썸 경제 뉴스 레터와 잘 어울러지나요?! 댓글에 숫자로 의견 남겨주세요 ^^</p>
+                                        <span className="list-num">220125</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <span>[설문]</span> 
+                                        <h3 id="title" className="">어썸인 Brand new 로고를 골라주세요.</h3>
+                                        <p>어썸인의 새 로고를 런칭하려고 합니다! 그동안 어썸 레터를 구독해주셨던 열북이들에게 도움을 구해요!!
+                                        어떤 로고가 우리 어썸 경제 뉴스 레터와 잘 어울러지나요?! 댓글에 숫자로 의견 남겨주세요 ^^</p>
+                                        <span className="list-num">220125</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <span>[설문]</span> 
+                                        <h3 id="title" className="">어썸인 Brand new 로고를 골라주세요.</h3>
+                                        <p>어썸인의 새 로고를 런칭하려고 합니다! 그동안 어썸 레터를 구독해주셨던 열북이들에게 도움을 구해요!!
+                                        어떤 로고가 우리 어썸 경제 뉴스 레터와 잘 어울러지나요?! 댓글에 숫자로 의견 남겨주세요 ^^</p>
+                                        <span className="list-num">220125</span>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div className="more"><a href="!#">더보기<br />+</a></div>
                     </div>
 
                     <footer>
