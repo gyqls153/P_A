@@ -249,12 +249,19 @@ select::-ms-expand {
     letter-spacing: 1px;
     border: 1px solid #231815; 
   }
+  nav ul li.active{
+    cursor: pointer;
+    display: block;
+  }
   nav ul li:hover{
     transition: all 0.6s ease-in-out;
     transform: translateY(-10px);
     color: #FFF4F0;
+    cursor: pointer;
     background-color: #FF557D;
   }
+  .tab-confirmed-wd{ display: none; }
+  .tab-cont-table{ display: none; }
    /*table list*/
   .community-table{border: 1px solid #231815; padding: 30px;}
   .community-table table{ min-width: 100%; }
@@ -264,7 +271,7 @@ select::-ms-expand {
   .community-table table tr td .tbs-title{ font-size: 22px; }
   .community-table table tr td .tbs-list-num{ font-size: 15px; float: right; clear: both; }
 
-  /* footer */
+/* footer */
 footer{width: 100%; padding: 22px 0;}
 .footer-bottom{ display: flex; padding: 12px 0 70px 0; }
 .foot-bottom-inner{ min-width: 60%; }/*최상단 바로아래 div-cover, className 헷깔림 확인주의*/
