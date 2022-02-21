@@ -402,9 +402,9 @@ function App() {
                                 </ul>
                             </div>
                             <div className="footer-sns">
-                                <a className="foot-insta" href="#!"></a>
-                                <a className="foot-youtube" href="#!"></a>
-                                <a className="foot-cafe" href="#!"></a>
+                                <a className="foot-insta" href="#!">{}</a>
+                                <a className="foot-youtube" href="#!">{}</a>
+                                <a className="foot-cafe" href="#!">{}</a>
                             </div>
                             <span className="footer-text-logo"></span>
                         </div>
