@@ -73,9 +73,9 @@
   padding: 12px 0;
   color: #000;
 }
-.logo-text-style li:nth-child(1){font-size: 16px; letter-spacing: 2px; padding: 0 9px; border-right: 2px solid #231815;}
-.logo-text-style li:nth-child(2){font-size: 18px; text-align: center; letter-spacing: 2px; width: 66%;}
-.logo-text-style li:nth-child(3){font-size: 16px; letter-spacing: 3px;padding: 0 9px; border-left: 2px solid #231815; }
+.logo-text-style li:nth-child(1){font-size: 16px; letter-spacing: 2px; padding: 0 28px 0 0; border-right: 2px solid #231815;}
+.logo-text-style li:nth-child(2){font-size: 18px; text-align: center; letter-spacing: 2px; width: 63%;}
+.logo-text-style li:nth-child(3){font-size: 16px; letter-spacing: 4px;padding: 0 0 0 25px; border-left: 2px solid #231815; }
 
 /*Swiper-slide*/
 .swiper-empty-img{
