@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css';
 import './index.css';
-import './font.css';
 import './services/Swiper.js';
 
 
