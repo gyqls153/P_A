@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import './index.css';
-import './services/Swiper';
+import './services/Swiper.js';
 
 
 function App() {
@@ -27,7 +27,7 @@ function App() {
                             <li>AWESOME LETTEER</li>
                         </ul>
                     </div> 
-
+                    {/* Swiper-slide */}
                     <div className="swiper-empty-img" alt="대체이미지">
                         <div class="swiper">
                             <div class="swiper-wrapper">
