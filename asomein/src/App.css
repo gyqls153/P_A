@@ -192,10 +192,7 @@ select::-ms-expand {
 .more a{ font-size: 14px; text-decoration: none; color: #231815;}
 
 /*user comment and interview section*/
-.contents-interview{
-  min-width: 100%;
-  margin: 0 0 13% 0;
-}
+.contents-interview{ min-width: 100%; margin: 0 0 13% 0 }
   .interview-title{ display: inline-flex; align-items: center; margin-bottom: 30px;}
   .icon-interview{ padding: 40px 30px; background: url(./assets/images/icon-interview.png)15px 0 no-repeat; }
   .interview-title p{ font-size: 41px; font-weight: 400; margin-left: 38px;}
@@ -211,7 +208,7 @@ select::-ms-expand {
   .comments-box ul li:nth-child(2)::before{ 
     content: "";
     position: relative;
-    padding: 4px 8px;
+    padding: 0 8px;
     top: 50%;
     left: -245px;
     background: url(./assets/images/icon-arrow.png)no-repeat;}
@@ -233,20 +230,14 @@ select::-ms-expand {
   
 
 /* community */
-.contents-community{
-  min-width: 100%;
-}
+.contents-community{ min-width: 100%; }
   .community-title{ display: flex; align-items: center; }
   .icon-community{ padding: 31px 35px; display: inline-flex; background: url(./assets/images/icon-community.png) no-repeat; }
   .community-title p{ font-size: 41px; font-weight: 400; margin-left: 20px;}
-    /*tab-menu*/
+  /*community tab-menu*/
   .community-inner-title {display: inline-flex; align-items: center; padding-bottom: 40px;}
   nav{ display: inline-block; }
-  nav ul{ 
-    display:inline-flex; 
-    height: 50px; 
-    margin: 0 0 0 15px;
-  }
+  nav ul{ display:inline-flex; height: 50px; margin: 0 0 0 15px;}
   nav ul li{ 
     display: inline;
     width: 200px;
@@ -257,7 +248,7 @@ select::-ms-expand {
     border: 1px solid #231815; 
   }
   nav ul li:hover{
-    transition: all 0.3s linear;
+    transition: all 0.6s ease-in-out;
     transform: translateY(-10px);
     color: #FFF4F0;
     background-color: #FF557D;
@@ -271,8 +262,7 @@ select::-ms-expand {
   .community-table table tr td .tbs-title{ font-size: 22px; }
   .community-table table tr td .tbs-list-num{ font-size: 15px; float: right; clear: both; }
 
-
-/* footer */
+  /* footer */
 footer{width: 100%; padding: 22px 0;}
 .footer-bottom{ display: flex; padding: 12px 0 70px 0; }
 .foot-bottom-inner{ min-width: 60%; }/*최상단 바로아래 div-cover, className 헷깔림 확인주의*/
