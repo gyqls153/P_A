@@ -262,13 +262,11 @@ select::-ms-expand {
     background-color: #FF557D;
   }
   /*click tab menu(nav) effect change table list*/
-  .tab{}
   .tab-confirmed-wd{ display: block; }
   .tab-cont-table{ display: block; }
    /*table list*/
   .community-table{border: 1px solid #231815; padding: 30px;}
   .community-table table{ min-width: 100%; }
-  .community-table table tr{  }
   .community-table table tr td{ border-bottom: 1px dotted #231815; padding: 20px 0 20px 0; }
   .community-table table tr td span{ font-size: 22px; }
   .community-table table tr td p { max-width: 50%; padding: 5px 0; line-height: 26px; }
