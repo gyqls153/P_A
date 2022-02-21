@@ -92,19 +92,29 @@
   margin: 40px 0 60px 0;
 }
 .list-top-area ul{
-  min-height: 70%;
-  padding-top: 50px ;
-  font-weight: 600;
-  border: 1px solid green;
+  min-height: 40%;
+  margin-top: 88px;
+  font-weight: 500;
 }
-.list-3d-menu li{ display: inline; padding: 40px; border: 1px solid red; }
+.list-3d-menu{ display: inline-flex; height: 43%;}
+.list-3d-menu li{ 
+  display: flex;
+  align-items: center; 
+  padding: 37px 30px;
+  margin: 0 18px;
+}
 .list-3d-menu li:nth-child(1){ background: url(./assets/images/icon-3D-menu.png) no-repeat;}
-.list-3d-menu li:nth-child(2){ background: url(./assets/images/icon-3D-home.png) no-repeat; padding:40px 17px;}
-.list-3d-menu li:nth-child(3){ background: url(./assets/images/icon-3D-finance.png) no-repeat; padding:40px 17px;}
+.list-3d-menu li:nth-child(2){ background: url(./assets/images/icon-3D-home.png) no-repeat;padding:38px 17px;}  
+.list-3d-menu li:nth-child(3){ background: url(./assets/images/icon-3D-finance.png) no-repeat; padding:35px 17px;}
+.list-3d-menu li p{
+  display: block;
+  font-size: 15px;
+  margin-top: 150px;
+  word-spacing: 5px;
+}
 /* about Search Box */
 .search-inner-box{
   min-width: 47%;
-  border: 1px solid red;
   display: inline-flex;
 }
 .bbs-list-search{
@@ -112,13 +122,24 @@
   position: relative;
   align-items: stretch;
   top: 80%;
-  left: 38%;
+  left: 33%;
   height: 45px;
 }
 .bbs-list-search input{
   padding: 10px 55px;
   background-color: transparent;
-  border-color: #231815;
+  border:1px solid #231815;
+  border-left: none;
+  border-right:none;
+  font-size: 16px;
+}
+.search-inner-selectBox{
+  background: none;
+  text-align: center;
+  letter-spacing: 3px;
+}
+select::-ms-expand {
+  display: none;
 }
 .seachBtn{
   width: 45px;
@@ -128,15 +149,31 @@
   background: url(./assets/images/icon-search-main.png)9px 10px no-repeat;/*icon-location*/
 }
 .right-content-top-bbs{
-  display: flexbox;
-  border: 1px solid red;
+  min-width: 24%;
+  display: block;
 }
-.right-content-top-bbs a{
-  padding: 23px 24px;
+.subscribe-asomein{
+  display: inline-flex;
+  float: right;
+  height: 105px;
+}
+.subscribe-asomein a{
+  padding: 23px 24px 0 32px;
+  text-decoration: none;
+  color: #231815;
   font-size: 20px;
   background: url(./assets/images/icons-subscribe.png)no-repeat;
 }
-
+.all-dropdown-selbox{
+  position: relative;
+  top: 200px;
+  left: 180px;
+  width: 145px;
+  height: 25px;
+  border: none;
+  border-bottom: 1px solid #231815;
+  background-color: transparent;
+}
 /*table notice*/
 .table-contents{ width: 100%; }
 .table-contents table{

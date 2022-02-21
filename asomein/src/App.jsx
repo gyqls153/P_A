@@ -33,14 +33,14 @@ function App() {
                     <div className="container-list">
                         <div className="list-top-area">
                             <ul className="list-3d-menu">
-                                <li>전체</li>
-                                <li>Only부동산</li>  
-                                <li>Only금융</li>
+                                <li><p>전체</p></li>
+                                <li><p>Only부동산</p></li>  
+                                <li><p>Only금융</p></li>
                             </ul>
                             <div className="search-inner-box">
                                 <div className="bbs-list-search">
                                     <select id="" className="search-inner-selectBox">
-                                        <option selected>전체보기</option>
+                                        <option selected>전체</option>
                                         <option>Only부동산</option>
                                         <option>Only금융</option>
                                     </select>
