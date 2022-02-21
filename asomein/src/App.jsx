@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import Header from './Components/Header';
 import './index.css';
 import './services/Swiper.js';
 
@@ -8,17 +9,7 @@ function App() {
         return (
             <div className="App">
                 <div className="app-inner-grid">
-                    <header className="App-header">
-                        <div className="service-introduce">
-                            어썸인 서비스 소개
-                        </div>
-                        <nav className="header-menu-list">
-                            <a href="#!">로그인</a>
-                            <a href="#!">회원가입</a>
-                            <a href="#!">장바구니</a>
-                        </nav>
-                    </header>
-
+                   <Header />
                     <div className="top-contents">
                         <div className="big-logo-img"></div>
                         <ul className="logo-text-style">
@@ -360,14 +351,7 @@ function App() {
                                         <span className="tbs-list-num">220125</span>
                                     </td>
                                 </tr>
-                                <tr>
-                                    <td>
-                                        <p id="title" className="tbs-title"><span>[후기]</span>이러다 부자되겠어요!~</p> 
-                                        <p>어썸인의 새 로고를 런칭하려고 합니다! 그동안 어썸 레터를 구독해주셨던 열북이들에게 도움을 구해요!!
-                                        어떤 로고가 우리 어썸 경제 뉴스 레터와 잘 어울러지나요?! 댓글에 숫자로 의견 남겨주세요 ^^</p>
-                                        <span className="tbs-list-num">220125</span>
-                                    </td>
-                                </tr>
+                                <st
                             </table>
                         </div>
                         <div className="more">
@@ -377,12 +361,12 @@ function App() {
 
                     <footer>
                         <hr /> 
-                        <div className="footer-bottom">
+                        zzzzzzz<div className="footer-bottom">
                             <div className="foot-bottom-inner">
                                 <div className="footer-bottom-menu">
                                     <a href="#!">안전구매(에스크로)서비스 가맹점</a>
                                     <a href="#!">이용약관</a>
-                                    <a href="#!">개인정보처리방침</a>
+                                     <a href="#!">개인정보처리방침</a>
                                 </div>
                                 <ul className="footer-bottom-info">
                                     <li>상호: (주)어썸인</li>  
