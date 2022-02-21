@@ -128,7 +128,8 @@
   height: 45px;
 }
 .bbs-list-search input{
-  padding: 10px 55px;
+  width: 256px;
+  padding: 10px 8px;
   background-color: transparent;
   border:1px solid #231815;
   border-left: none;
@@ -136,14 +137,17 @@
   font-size: 16px;
 }
 .search-inner-selectBox{
-  background: none;
+  background: transparent;
+  width: 95px;
   text-align: center;
+  padding: 0 0 0 5px;
   letter-spacing: 3px;
 }
 select::-ms-expand {
   display: none;
 }
 .seachBtn{
+  cursor: pointer;
   width: 45px;
   height: 45px;
   border: 1px solid #231815;
@@ -197,7 +201,7 @@ select::-ms-expand {
 .contents-interview{ min-width: 100%; margin: 0 0 13% 0 }
   .interview-title{ display: inline-flex; align-items: center; margin-bottom: 30px;}
   .icon-interview{ padding: 40px 30px; background: url(./assets/images/icon-interview.png)15px 0 no-repeat; }
-  .interview-title p{ font-size: 41px; font-weight: 400; margin-left: 38px;}
+  .interview-title p{ font-size: 41px; font-weight: 400;margin-left: 25px;}
   .comments-box{ min-width: 100%; }
   .comments-box ul {display: flex; padding: 0;}
   .comments-box ul li{
@@ -236,7 +240,7 @@ select::-ms-expand {
 .contents-community{ min-width: 100%; }
   .community-title{ display: flex; align-items: center; }
   .icon-community{ padding: 31px 35px; display: inline-flex; background: url(./assets/images/icon-community.png) no-repeat; }
-  .community-title p{ font-size: 41px; font-weight: 400; margin-left: 20px;}
+  .community-title p{ font-size: 41px; font-weight: 400;margin-left: 14px;}
   /*community tab-menu*/
   .community-inner-title {display: inline-flex; align-items: center; padding-bottom: 40px;}
   nav{ display: inline-block; }
@@ -244,11 +248,11 @@ select::-ms-expand {
   nav ul li{ 
     display: inline;
     width: 200px;
-    padding: 14px 0;
+    padding: 12px 0;
     text-align: center;
-    font-size: 16px;
+    font-size: 15px;
     letter-spacing: 1px;
-    border: 1px solid #231815; 
+    border: 1px solid #231815;
   }
   nav ul li.active{
     cursor: pointer;
@@ -266,7 +270,7 @@ select::-ms-expand {
   .tab-cont-table{ display: block; }
    /*table list*/
   .community-table{border: 1px solid #231815; padding: 30px;}
-  .community-table table{ min-width: 100%; }
+  .community-table table{ min-width: 100%; padding-left: 23px;}
   .community-table table tr td{ border-bottom: 1px dotted #231815; padding: 20px 0 20px 0; }
   .community-table table tr td span{ font-size: 22px; }
   .community-table table tr td p { max-width: 50%; padding: 5px 0; line-height: 26px; }
@@ -279,19 +283,19 @@ footer{width: 100%; padding: 22px 0;}
 .foot-bottom-inner{ min-width: 60%; }/*최상단 바로아래 div-cover, className 헷깔림 확인주의*/
 
 .footer-bottom-menu{ max-width: 60%; padding: 5px 0;}
-.footer-bottom-menu a{ font-size: 13px; text-decoration: none; color: #231815; cursor: pointer;}
+.footer-bottom-menu a{ font-size: 13px; font-weight: 600; text-decoration: none; color: #231815; cursor: pointer;}
 .footer-bottom-menu a:nth-child(2)::before{ content: ""; font-size: 11px;  text-align: center; border-right: 1px solid #231815; margin: 0 20px; }
 .footer-bottom-menu a:nth-child(2)::after{ content: ""; font-size: 11px;  text-align: center; border-left: 1px solid #231815; margin: 0 20px; }
 .footer-bottom-menu a:nth-child(2){padding: 15px 0; }
 
-.footer-bottom-info{ display: inline-flex; font-size: 11px;}
+.footer-bottom-info{ display: inline-flex; font-size: 0.7em;}
 .footer-bottom-info li::after{ content: ""; font-size: 8px; text-align: center; border-left: 1px solid #231815; margin: 0 10px;}
 .footer-bottom-info li:nth-child(5)::after{ content: ""; border-left:none ; }
 
-.footer-bottom-adress{ min-width: 100%; font-size: 11px; display: inline-flex; }
-.footer-bottom-adress li::after{ content: ""; font-size: 8px; text-align: center; border-left: 1px solid #231815; margin: 0 10px;}
+.footer-bottom-adress{ min-width: 100%; font-size: 0.7em; display: inline-flex; }
+.footer-bottom-adress li::after{ content: ""; font-size: 2px; text-align: center; border-left: 1px solid #231815; margin: 0 10px;}
 
-.footer-bottom-sale{ font-size: 11px; display: inline-flex; }
+.footer-bottom-sale{ font-size: 0.7em; display: inline-flex; }
 .footer-bottom-sale li::after{ content: ""; font-size: 8px; text-align: center; border-left: 1px solid #231815; margin: 0 10px;}
 .footer-bottom-sale li:nth-child(2)::after{ content: ""; border-left:none ; }
 

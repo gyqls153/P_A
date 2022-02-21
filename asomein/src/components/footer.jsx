@@ -1,7 +1,6 @@
 
 function Footer(props) {
     return(
-
         <footer>
             <hr /> 
             <div className="footer-bottom">

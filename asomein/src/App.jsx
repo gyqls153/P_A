@@ -4,6 +4,8 @@ import Header from './Components/Header';
 import Footer from './Components/Footer';
 import './index.css';
 import './services/Swiper.js';
+import jQuery from "jquery";
+window.$ = window.jQuery = jQuery;
 
 
 function App() {
