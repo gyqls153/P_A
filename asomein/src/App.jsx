@@ -188,7 +188,7 @@ function App() {
                             <table>
                                 <tr className="tab">
                                     <td>
-                                        <span>[설문]</span><p id="title" className="tbs-title">어썸인 Brand new 로고를 골라주세요.</p> 
+                                        <p id="title" className="tbs-title"><span>[설문]</span>어썸인 Brand new 로고를 골라주세요.</p>  
                                         <p>어썸인의 새 로고를 런칭하려고 합니다! 그동안 어썸 레터를 구독해주셨던 열북이들에게 도움을 구해요!!
                                         어떤 로고가 우리 어썸 경제 뉴스 레터와 잘 어울러지나요?! 댓글에 숫자로 의견 남겨주세요 ^^</p>
                                         <span className="tbs-list-num">220125</span>
@@ -196,29 +196,26 @@ function App() {
                                 </tr>
                                 <tr>
                                     <td>
-                                        <span>[설문]</span> 
-                                        <h3 id="title" className="">어썸인 Brand new 로고를 골라주세요.</h3>
+                                        <p id="title" className="tbs-title"><span>[설문]</span>어썸인 Brand new 로고를 골라주세요.</p> 
                                         <p>어썸인의 새 로고를 런칭하려고 합니다! 그동안 어썸 레터를 구독해주셨던 열북이들에게 도움을 구해요!!
                                         어떤 로고가 우리 어썸 경제 뉴스 레터와 잘 어울러지나요?! 댓글에 숫자로 의견 남겨주세요 ^^</p>
-                                        <span className="list-num">220125</span>
+                                        <span className="tbs-list-num">220125</span>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <span>[설문]</span> 
-                                        <h3 id="title" className="">어썸인 Brand new 로고를 골라주세요.</h3>
+                                        <p id="title" className="tbs-title"><span>[설문]</span>어썸인 Brand new 로고를 골라주세요.</p> 
                                         <p>어썸인의 새 로고를 런칭하려고 합니다! 그동안 어썸 레터를 구독해주셨던 열북이들에게 도움을 구해요!!
                                         어떤 로고가 우리 어썸 경제 뉴스 레터와 잘 어울러지나요?! 댓글에 숫자로 의견 남겨주세요 ^^</p>
-                                        <span className="list-num">220125</span>
+                                        <span className="tbs-list-num">220125</span>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <span>[설문]</span> 
-                                        <h3 id="title" className="">어썸인 Brand new 로고를 골라주세요.</h3>
+                                        <p id="title" className="tbs-title"><span>[설문]</span>어썸인 Brand new 로고를 골라주세요.</p> 
                                         <p>어썸인의 새 로고를 런칭하려고 합니다! 그동안 어썸 레터를 구독해주셨던 열북이들에게 도움을 구해요!!
                                         어떤 로고가 우리 어썸 경제 뉴스 레터와 잘 어울러지나요?! 댓글에 숫자로 의견 남겨주세요 ^^</p>
-                                        <span className="list-num">220125</span>
+                                        <span className="tbs-list-num">220125</span>
                                     </td>
                                 </tr>
                             </table>
