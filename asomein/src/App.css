@@ -80,11 +80,10 @@
 .swiper-empty-img{
   min-width: 100%;
   min-height: 500px;
-  background: url(./assets/images/slide-img01.png) no-repeat;}
-
-.container-list{
-  width: 100%;
+  background-color: gray;
+  /* background: url(./assets/images/slide-img01.png) no-repeat; */
 }
+.container-list{ width: 100%; }
 .list-top-area{
   min-width: 100%;
   display: inline-flex;

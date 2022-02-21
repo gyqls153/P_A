@@ -1,7 +1,7 @@
 import React from 'react';
-// import { useMediaQuery } from 'react-responsive';
 import './App.css';
 import './index.css';
+import './services/Swiper';
 
 
 function App() {
@@ -27,8 +27,17 @@ function App() {
                             <li>AWESOME LETTEER</li>
                         </ul>
                     </div> 
-                    {/* swiper slide */}
-                    <div className="swiper-empty-img" alt="대체이미지"></div>
+
+                    <div className="swiper-empty-img" alt="대체이미지">
+                        <div class="swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">Slide 1</div>
+                                <div class="swiper-slide">Slide 2</div>
+                                <div class="swiper-slide">Slide 3</div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
 
                     <div className="container-list">
                         <div className="list-top-area">
@@ -220,7 +229,10 @@ function App() {
                                 </tr>
                             </table>
                         </div>
-                        <div className="more"><a href="!#">더보기<br />+</a></div>
+                        
+                        <div className="more">
+                            <a href="!#">더보기<br />+</a>
+                        </div>
                     </div>
 
                     <footer>
