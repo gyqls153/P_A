@@ -16,7 +16,9 @@ code {
     monospace;
 }
 
-/* font */
+/* Font */
+
+/* KoPubWorldDotum */
 @font-face {
   font-family: 'KoPubWorldDotum';
   font-weight: 300;
@@ -50,3 +52,5 @@ code {
       url('https://cdn.jsdelivr.net/gh/webfontworld/kopus/KoPubWorldDotumBold.ttf') format("truetype");
   font-display: swap;
 }
+
+/* KoPubDotum_Pro */
