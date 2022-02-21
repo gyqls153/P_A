@@ -267,7 +267,7 @@ function App() {
                             <table id="tab3" className="tab-cont-table">
                                 <tr className="tab">
                                     <td>
-                                        <p id="title" className="tbs-title"><span>[설문]</span>어썸인 Brand new 로고를 골라주세요.</p>  
+                                        <p id="title" className="tbs-title"><span>[공지]</span>변수 많은 올해,주식과 부동산을 한눈에</p>  
                                         <p>어썸인의 새 로고를 런칭하려고 합니다! 그동안 어썸 레터를 구독해주셨던 열북이들에게 도움을 구해요!!
                                         어떤 로고가 우리 어썸 경제 뉴스 레터와 잘 어울러지나요?! 댓글에 숫자로 의견 남겨주세요 ^^</p>
                                         <span className="tbs-list-num">220125</span>
@@ -275,7 +275,7 @@ function App() {
                                 </tr>
                                 <tr>
                                     <td>
-                                        <p id="title" className="tbs-title"><span>[설문]</span>어썸인 Brand new 로고를 골라주세요.</p> 
+                                        <p id="title" className="tbs-title"><span>[공지]</span>변수 많은 올해,주식과 부동산을 한눈에</p>  
                                         <p>어썸인의 새 로고를 런칭하려고 합니다! 그동안 어썸 레터를 구독해주셨던 열북이들에게 도움을 구해요!!
                                         어떤 로고가 우리 어썸 경제 뉴스 레터와 잘 어울러지나요?! 댓글에 숫자로 의견 남겨주세요 ^^</p>
                                         <span className="tbs-list-num">220125</span>
@@ -283,7 +283,7 @@ function App() {
                                 </tr>
                                 <tr>
                                     <td>
-                                        <p id="title" className="tbs-title"><span>[설문]</span>어썸인 Brand new 로고를 골라주세요.</p> 
+                                        <p id="title" className="tbs-title"><span>[공지]</span>변수 많은 올해,주식과 부동산을 한눈에</p>  
                                         <p>어썸인의 새 로고를 런칭하려고 합니다! 그동안 어썸 레터를 구독해주셨던 열북이들에게 도움을 구해요!!
                                         어떤 로고가 우리 어썸 경제 뉴스 레터와 잘 어울러지나요?! 댓글에 숫자로 의견 남겨주세요 ^^</p>
                                         <span className="tbs-list-num">220125</span>
@@ -291,7 +291,7 @@ function App() {
                                 </tr>
                                 <tr>
                                     <td>
-                                        <p id="title" className="tbs-title"><span>[설문]</span>어썸인 Brand new 로고를 골라주세요.</p> 
+                                        <p id="title" className="tbs-title"><span>[공지]</span>변수 많은 올해,주식과 부동산을 한눈에</p>  
                                         <p>어썸인의 새 로고를 런칭하려고 합니다! 그동안 어썸 레터를 구독해주셨던 열북이들에게 도움을 구해요!!
                                         어떤 로고가 우리 어썸 경제 뉴스 레터와 잘 어울러지나요?! 댓글에 숫자로 의견 남겨주세요 ^^</p>
                                         <span className="tbs-list-num">220125</span>
@@ -333,11 +333,12 @@ function App() {
                                     </td>
                                 </tr>
                             </table>
+
                             <span className="tab-confirmed-wd" rel="tab5"></span>
                             <table id="tab5" className="tab-cont-table">
                                 <tr className="tab">
                                     <td>
-                                        <p id="title" className="tbs-title"><span>[설문]</span>어썸인 Brand new 로고를 골라주세요.</p>  
+                                        <p id="title" className="tbs-title"><span>[후기]</span>좋은정보 많이 알려주셔서 너무 좋아요!</p>  
                                         <p>어썸인의 새 로고를 런칭하려고 합니다! 그동안 어썸 레터를 구독해주셨던 열북이들에게 도움을 구해요!!
                                         어떤 로고가 우리 어썸 경제 뉴스 레터와 잘 어울러지나요?! 댓글에 숫자로 의견 남겨주세요 ^^</p>
                                         <span className="tbs-list-num">220125</span>
@@ -345,7 +346,7 @@ function App() {
                                 </tr>
                                 <tr>
                                     <td>
-                                        <p id="title" className="tbs-title"><span>[설문]</span>어썸인 Brand new 로고를 골라주세요.</p> 
+                                        <p id="title" className="tbs-title"><span>[후기]</span>이러다 부자되겠어요!~</p> 
                                         <p>어썸인의 새 로고를 런칭하려고 합니다! 그동안 어썸 레터를 구독해주셨던 열북이들에게 도움을 구해요!!
                                         어떤 로고가 우리 어썸 경제 뉴스 레터와 잘 어울러지나요?! 댓글에 숫자로 의견 남겨주세요 ^^</p>
                                         <span className="tbs-list-num">220125</span>
@@ -353,7 +354,7 @@ function App() {
                                 </tr>
                                 <tr>
                                     <td>
-                                        <p id="title" className="tbs-title"><span>[설문]</span>어썸인 Brand new 로고를 골라주세요.</p> 
+                                        <p id="title" className="tbs-title"><span>[후기]</span>어려운 정보들이 머리에 쏙쏙들어와요!</p> 
                                         <p>어썸인의 새 로고를 런칭하려고 합니다! 그동안 어썸 레터를 구독해주셨던 열북이들에게 도움을 구해요!!
                                         어떤 로고가 우리 어썸 경제 뉴스 레터와 잘 어울러지나요?! 댓글에 숫자로 의견 남겨주세요 ^^</p>
                                         <span className="tbs-list-num">220125</span>
@@ -361,7 +362,7 @@ function App() {
                                 </tr>
                                 <tr>
                                     <td>
-                                        <p id="title" className="tbs-title"><span>[설문]</span>어썸인 Brand new 로고를 골라주세요.</p> 
+                                        <p id="title" className="tbs-title"><span>[후기]</span>이러다 부자되겠어요!~</p> 
                                         <p>어썸인의 새 로고를 런칭하려고 합니다! 그동안 어썸 레터를 구독해주셨던 열북이들에게 도움을 구해요!!
                                         어떤 로고가 우리 어썸 경제 뉴스 레터와 잘 어울러지나요?! 댓글에 숫자로 의견 남겨주세요 ^^</p>
                                         <span className="tbs-list-num">220125</span>
@@ -369,7 +370,6 @@ function App() {
                                 </tr>
                             </table>
                         </div>
-                        
                         <div className="more">
                             <a href="!#">더보기<br />+</a>
                         </div>
