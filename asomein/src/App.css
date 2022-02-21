@@ -126,6 +126,7 @@
   top: 80%;
   left: 33%;
   height: 45px;
+  /* border: 1 solid #231815; */
 }
 .bbs-list-search input{
   width: 256px;
@@ -142,6 +143,10 @@
   text-align: center;
   padding: 0 0 0 5px;
   letter-spacing: 3px;
+  border-right:none;
+  border-top: 1px solid #231815;
+  border-left: 1px solid #231815;
+  border-bottom: 1px solid #231815;
 }
 select::-ms-expand {
   display: none;
