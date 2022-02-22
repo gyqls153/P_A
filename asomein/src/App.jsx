@@ -13,9 +13,6 @@ import SwiperCore, { Pagination, Autoplay, Mousewheel } from "swiper/core";
 SwiperCore.use([ Pagination, Autoplay, Mousewheel ])
 
 
-//import swiper styling
-
-
 function App() {
 
         // const [category, setCategory] = useState('all');
