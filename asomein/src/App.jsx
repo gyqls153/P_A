@@ -1,14 +1,18 @@
 import React from 'react';
+import { useState, useCallBack } from 'react';
 import './App.css';
 import Header from './Components/Header';
 import Footer from './Components/Footer';
+import Categories from './Components/Categories';
 import './index.css';
 import './services/Swiper.js';
-import jQuery from "jquery";
-window.$ = window.jQuery = jQuery;
 
 
 function App() {
+
+        const [category, setCategory] = useState('all');
+        const onSelect = useCallBack(category => setCategory(category), []);
+
         return (
             <div className="App">
                 <div className="app-inner-grid">
@@ -187,6 +191,9 @@ function App() {
                                 </ul>
                             </nav>
                         </div>
+                        
+                        <Categories category={category} onSelect={onSelect} />
+                        
                         <div className="community-table">
                             <table id="tab1" className="tab-cont-table">
                                 <tr className="tab">
