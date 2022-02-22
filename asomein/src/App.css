@@ -283,10 +283,10 @@ select::-ms-expand {
     letter-spacing: 1px;
     border: 1px solid #231815;
   }
-  nav ul li.active{
+  /* nav ul li.active{
     cursor: pointer;
-    display: block;
-  }
+    /* display: block;
+  }*/
   nav ul li:hover{
     transition: all 0.6s ease-in-out;
     transform: translateY(-10px);
@@ -294,9 +294,10 @@ select::-ms-expand {
     cursor: pointer;
     background-color: #FF557D;
   }
-  /*click tab menu(nav) effect change table list*/
-  .tab-confirmed-wd{ display: block; }
-  .tab-cont-table{ display: block; }
+  /* tab menu(nav) effect change table list*/
+
+  .active-cnt{display: block;}
+
    /*table list*/
   .community-table{border: 1px solid #231815; padding: 30px;}
   .community-table table{ min-width: 100%; padding-left: 23px;}
