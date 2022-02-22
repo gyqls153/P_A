@@ -1,10 +1,11 @@
 import React from 'react';
 // import { useState, useCallBack } from 'react';
-import { Swiper, SwiperSlide } from 'swiper/react';
+// import { Swiper, SwiperSlide } from 'swiper/react';
 import './App.css';
 import Header from './Components/Header';
 import Footer from './Components/Footer';
-import Categories from './Components/Categories';
+import Swiper from './services/Swiper';
+// import Categories from './Components/Categories';
 import './index.css';
 import './services/Swiper.js';
 
@@ -33,18 +34,7 @@ function App() {
                         </ul>
                     </div> 
                     <div className="swiper-empty-img" alt="대체이미지">
-                        <Swiper
-                            className="banner"
-                            spaceBetween={10}
-                            slidesPerView={1}
-                            pagination={{ clickable: true }}
-                            autoplay={{ delay : 2000 }} //자동플레이시간
-                        >
-                            <SwiperSlide><span className="slide-img01"></span></SwiperSlide>
-                            <SwiperSlide><span className="slide-img02"></span></SwiperSlide>
-                            <SwiperSlide><span className="slide-img03"></span></SwiperSlide>
-                            <div className="swiper-pagination"></div>
-                        </Swiper>
+                        <Swiper />
                     </div>
                     <div className="container-list">
                         <div className="list-top-area">
@@ -201,7 +191,7 @@ function App() {
                             </nav>
                         </div>
                         
-                       <Categories /> 
+                       {/* <Categories />  */}
                         
                         <div className="community-table">
                             <table id="tab1" className="tab-cont-table">
