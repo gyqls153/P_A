@@ -1,5 +1,6 @@
 import React from 'react';
-import { useState, useCallBack } from 'react';
+// import { useState, useCallBack } from 'react';
+import { Swiper, SwiperSlide } from 'swiper/react';
 import './App.css';
 import Header from './Components/Header';
 import Footer from './Components/Footer';
@@ -7,11 +8,17 @@ import Categories from './Components/Categories';
 import './index.css';
 import './services/Swiper.js';
 
+import SwiperCore, { Pagination, Autoplay, Mousewheel } from "swiper/core";
+SwiperCore.use([ Pagination, Autoplay, Mousewheel ])
+
+
+//import swiper styling
+
 
 function App() {
 
-        const [category, setCategory] = useState('all');
-        const onSelect = useCallBack(category => setCategory(category), []);
+        // const [category, setCategory] = useState('all');
+        // const onSelect = useCallBack(category => setCategory(category), []);
 
         return (
             <div className="App">
@@ -25,16 +32,20 @@ function App() {
                             <li>AWESOME LETTEER</li>
                         </ul>
                     </div> 
-                    {/* Swiper-slide */}
+                    
+                    
                     <div className="swiper-empty-img" alt="대체이미지">
-                        <div class="swiper">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide">Slide 1</div>
-                                <div class="swiper-slide">Slide 2</div>
-                                <div class="swiper-slide">Slide 3</div>
-                            </div>
-                            <div class="swiper-pagination"></div>
-                        </div>
+                        <Swiper
+                            className="banner"
+                            spaceBetween={50}
+                            slidesPerView={1}
+                            pagination={{ clickable: true }}
+                            autoplay={{ delay : 2000 }} //자동플레이시간
+                        >
+                            <SwiperSlide><span className="slide-img01"></span></SwiperSlide>
+                            <SwiperSlide><span className="slide-img02"></span></SwiperSlide>
+                            <SwiperSlide><span className="slide-img03"></span></SwiperSlide>
+                        </Swiper>
                     </div>
 
                     <div className="container-list">
@@ -192,7 +203,7 @@ function App() {
                             </nav>
                         </div>
                         
-                        <Categories category={category} onSelect={onSelect} />
+                       <Categories /> 
                         
                         <div className="community-table">
                             <table id="tab1" className="tab-cont-table">

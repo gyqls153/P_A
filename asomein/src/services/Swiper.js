@@ -1,5 +1,5 @@
 
-// import { Swiper, SwiperSlide } from 'swiper/react';
+
 import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore, { Pagination, Autoplay, Mousewheel } from "swiper/core";
 
@@ -8,7 +8,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/autoplay';
 import 'swiper/css/bundle';
-import 'swiper/css/a11y';
+
 
 SwiperCore.use([ Pagination, Autoplay, Mousewheel ])
 
@@ -22,7 +22,7 @@ function MainPage() {
                 pagination={{ clickable: true }}
                 autoplay={{ delay : 1000 }} //자동플레이시간
             >
-                <SwiperSlide>project</SwiperSlide>
+                <SwiperSlide>slide 1</SwiperSlide>
                 <SwiperSlide>Slide 2</SwiperSlide>
                 <SwiperSlide>Slide 3</SwiperSlide>
             </Swiper>
