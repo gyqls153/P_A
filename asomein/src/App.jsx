@@ -32,8 +32,6 @@ function App() {
                             <li>AWESOME LETTEER</li>
                         </ul>
                     </div> 
-                    
-                    
                     <div className="swiper-empty-img" alt="대체이미지">
                         <Swiper
                             className="banner"
@@ -41,14 +39,6 @@ function App() {
                             slidesPerView={1}
                             pagination={{ clickable: true }}
                             autoplay={{ delay : 2000 }} //자동플레이시간
-
-                            
-                            paginationbulletrender={(swiper, index, className) => {
-                            var year = document.querySelectorAll('.swiper-slide')[index].getAttribute('data-year');
-                            return '<span class="' + className + '">' + year + '</span>';
-                            }}
-
-
                         >
                             <SwiperSlide><span className="slide-img01"></span></SwiperSlide>
                             <SwiperSlide><span className="slide-img02"></span></SwiperSlide>
@@ -56,7 +46,6 @@ function App() {
                             <div className="swiper-pagination"></div>
                         </Swiper>
                     </div>
-
                     <div className="container-list">
                         <div className="list-top-area">
                             <ul className="list-3d-menu">
