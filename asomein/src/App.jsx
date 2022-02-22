@@ -37,14 +37,23 @@ function App() {
                     <div className="swiper-empty-img" alt="대체이미지">
                         <Swiper
                             className="banner"
-                            spaceBetween={50}
+                            spaceBetween={10}
                             slidesPerView={1}
                             pagination={{ clickable: true }}
                             autoplay={{ delay : 2000 }} //자동플레이시간
+
+                            
+                            paginationbulletrender={(swiper, index, className) => {
+                            var year = document.querySelectorAll('.swiper-slide')[index].getAttribute('data-year');
+                            return '<span class="' + className + '">' + year + '</span>';
+                            }}
+
+
                         >
                             <SwiperSlide><span className="slide-img01"></span></SwiperSlide>
                             <SwiperSlide><span className="slide-img02"></span></SwiperSlide>
                             <SwiperSlide><span className="slide-img03"></span></SwiperSlide>
+                            <div className="swiper-pagination"></div>
                         </Swiper>
                     </div>
 

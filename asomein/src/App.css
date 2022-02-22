@@ -106,8 +106,8 @@
 .slide-img02{background: url(./assets/images/slide-02.png);}
 .slide-img03{background: url(./assets/images/slide-03.png);}
 .swiper-pagination{ width: 100px; height: 50px;}
-.swiper-pagination-bullet {background: rgba(0,0,0,0.2);}
-.swiper-pagination-bullet-active { background: #000; }
+.swiper-pagination .swiper-pagination-bullet {background: rgba(0,0,0,0.8);}
+.swiper-pagination .swiper-pagination-bullet-active { background: #231815; }
 
 /*Box table Contents (구독하기, 게시글 검색하기, 3D아이콘이미지)*/
 .container-list{ width: 100%; }
