@@ -1,0 +1,123 @@
+
+.App { background-color: #FFF4F0; }
+.app-inner-grid{
+   /*수정들어감 옮길때 건들이지말것*/
+    width: 1360px;
+    margin: 0 auto;
+  }
+  .App-header {
+    min-width: 100%;
+    height: 200px;
+    display: inline-flex;
+    display:-webkit-inline-flex;
+    align-items: center;
+    color: #000;
+    font-family: 'KoPubWorldDotum';
+    border: 1px solid red;
+  }
+.App-header-inner{ display: inline-flex; min-width: 100%; align-items:baseline; }
+.pages-header-logo{
+    margin: 15px 0;
+    padding: 19px 54px;
+    background: url(/asomein-Logo02.png)no-repeat;
+    /* background: url(./assets/images/asomein-Logo02.png)no-repeat; */
+}
+
+/* middle-nav */
+.header-middle-menu-section{
+    display: flex;
+    margin: 0 11.8%;
+}
+.header-middle-menu-section a{ padding: 0 75px; color: #000;}
+.header-middle-menu-section a:hover{ color: #FF557D; }
+
+/* 로그인,장바구니,회원가입 */
+.header-menu-list{
+    /* margin-left: 46.5%; 수정할것!*/
+    display: flex; 
+    justify-items: center;
+    align-items: center;
+  }
+  .header-menu-list a{
+    display: inline-flex;
+    color: black;
+    font-size: 15px;
+  }
+  .header-menu-list a:nth-child(1){ width: 55px; padding: 0 3px 0 24px; background: url(./assets/images/icon-login.png) no-repeat;}
+  .header-menu-list a:nth-child(2){ padding: 0 4px 0 22px; width: 66px; background: url(./assets/images/icon-joinus.png) no-repeat;}
+  .header-menu-list a:nth-child(3){ width: 60px; padding: 0 0 0 22px; background: url(./assets/images/icon-shoppingCart.png)no-repeat;}
+
+/* 로그인페이지 */
+.login-section{
+  width: 100%;
+  height: auto;
+}
+.line-title{
+  min-width: 100%;
+  background-color: #FF557D;
+  color: #fff;
+  text-align: center;
+  font-size: 19px;
+  padding: 15px 0;
+}
+.login-form-sect{
+  width: 370px;
+  height: 440px;
+  margin: 110px auto;
+}
+/* Main-Login FormBox section */
+.check-icon{ padding: 0 9px; background: url(../images/icon-check.png)no-repeat; }
+.Login-form-box{
+  min-width: 100%;
+  display: block;
+}
+.user-join{min-width: 100%; height: 50px; margin-top: 15px;}
+.user-join label{ font-size: 17px; }
+.user-join input{ 
+  display: block;
+  min-width: 95%;
+  height: 30px;
+  margin-left: 17px; 
+  border:none;
+  border-bottom: 1px solid #858480; 
+  background-color: transparent; 
+}
+.cellphone-number{ min-width: 94%; margin-left: 19px; }
+.cellphone-number input{ margin-left: 0; }
+/* 비밀번호잃어버렸을때 스타일 */
+.find-in-pw{
+  width: 31%;
+  margin-top: 23px;
+  margin-left: 15px;
+  height: 19px;
+  border-bottom: 1px solid #999892;
+}
+.find-in-pw a{ font-size: 10px; padding:30px 0; color: #000;}
+.user-join input::placeholder{color: #999892;}
+.user-join input::-webkit-input-placeholder{color: #999892;}
+.user-join input::-ms-input-placeholder{color: #999892;}
+
+/* 어떤페이지인지 보여주는 section */
+.show-page-line-styled{ 
+  min-width: 95%; 
+  margin-left: 17px; 
+  display: inline-flex; 
+}
+.show-page-line-styled p{ width: 100%; padding: 13px 0;font-size: 14px; }
+.show-page-line-styled p:nth-child(1){ border-bottom: 5px solid #FF557D; }
+.show-page-line-styled p:nth-child(2){ font-size: 13px; height: 17px; border-bottom: 1px solid #FF557D; }
+/* SNS으로 가입 */
+.login-section p{ font-size: 12px; text-align: center;margin: 25px 0;}
+.login-sns{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.naver_sns_btn .thumb_sns{
+  padding: 45px 38px;
+  background: url(../images/icon-NAVER.png)-4px 0 no-repeat; 
+}
+.kakao_sns_btn .thumb_sns{ padding: 45px 38px; background: url(../images/icon-kakaotalk.png)-2px 0 no-repeat; }
+.login-sns a span{ height: 20px; }
+.naver_sns_btn, .kakao_sns_btn{text-align: center; font-size: 11px; color: #000;}
