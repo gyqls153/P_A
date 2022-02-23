@@ -1,13 +1,13 @@
 
 import React from 'react';
 
-
 import './index.css';
 import './App.css';
 import HeaderMenu from './Components/HeaderMenu';
+import LoginSns from '../Components/LoginSns';
 import '../assets/css/login.css';
 
-function Login(props1) {
+function Login() {
     return(
         <div className="App">
             <div className="app-inner-grid">
@@ -34,21 +34,13 @@ function Login(props1) {
                             <p>로그인</p>
                         </div>
                         <p>소셜아이디로 간단하게 로그인하세요</p>
-                        <div className="login-sns">
-                            <a href="!#" cclassName="naver_sns_btn link_naver">
-                                <div className="thumb_sns"></div>
-                                <span>네이버로 로그인</span>
-                            </a>
-                            <a href="!#" className="kakao_sns_btn link_kakao">
-                                <div className="thumb_sns"></div>
-                                <span>카카오로 로그인</span>
-                            </a>
-                        </div>
+                        
+                        <LoginSns />
+
                      </div> {/* login-form-sect */}
                 </section>
             </div>
         </div>
-
     )
 }
 
