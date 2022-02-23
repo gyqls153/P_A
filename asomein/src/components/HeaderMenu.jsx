@@ -1,8 +1,5 @@
-import styled from 'styled-components';
+// import styled from 'styled-components';
 
-const BodyColor = styled.div` // eslint-disable-line no-unused-vars
-    background: #FFF4F0;
-`
 
 function PageHeader(propss)
 {
