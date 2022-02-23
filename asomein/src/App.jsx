@@ -16,7 +16,7 @@ import { BrowserRouter, Routers, Router  } from 'react-router-dom'
 import SwiperCore, { Pagination, Autoplay, Mousewheel } from "swiper/core";
 SwiperCore.use([ Pagination, Autoplay, Mousewheel ])
 
-
+/* Main App */
 function App() {
 
         // const [category, setCategory] = useState('all');
