@@ -1,10 +1,11 @@
-function StyledComponents(ptag, span1tag) {
+
+
+function Buttonstyle(ptag) {
     return(
 
         <div className="button-styled">
             <button className=""></button>
         </div>
-
 )
     }
-export default StyledComponents;
+export default Buttonstyle;

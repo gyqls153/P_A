@@ -5,6 +5,7 @@ import './index.css';
 import './App.css';
 import HeaderMenu from './Components/HeaderMenu';
 import LoginSns from '../Components/LoginSns';
+import Footer from '../Components/Footer';
 import '../assets/css/login.css';
 
 function Login() {
@@ -28,7 +29,9 @@ function Login() {
                                 <input type="password" name="password" onChange={''} value={''} placeholder="비밀번호 입력" />
                             </div>
                         </form>
+
                         <div className="find-in-pw"><a href="!#">비밀번호를 잃어버리셨나요?</a> </div>
+                        
                         <div className="show-page-line-styled">
                             <p>회원가입</p>
                             <p>로그인</p>
@@ -39,6 +42,7 @@ function Login() {
 
                      </div> {/* login-form-sect */}
                 </section>
+                <Footer />
             </div>
         </div>
     )
