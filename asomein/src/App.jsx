@@ -3,7 +3,7 @@ import './App.css';
 import './index.css';
 import './services/Swiper.js';
 
-/* main App */
+
 function App() {
         return (
             <div className="App">
