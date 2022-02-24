@@ -9,28 +9,31 @@ import Tabs from './Components/Tabs';
 // import Categories from './Components/Categories';
 import './index.css';
 import './services/Swiper.js';
-
-import { BrowserRouter, Routers, Router  } from 'react-router-dom'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 
 import SwiperCore, { Pagination, Autoplay, Mousewheel } from "swiper/core";
 SwiperCore.use([ Pagination, Autoplay, Mousewheel ])
 
-/* Main App */
+// /* Main App */
 function App() {
 
         // const [category, setCategory] = useState('all');
         // const onSelect = 지useCallBack(category => setCategory(category), []);
 
         return (
+            <> 
             <div className="App">
-                <div className="app-inner-grid">
-                    <BrowserRouter>
-                        <Routers>
-                            <Router path = "/"b element={<Header/>}>
-                            </Router>
-                        </Routers>
-                    </BrowserRouter>
+
+            
+                <div className="app-inner-grid">                  
+
+                    <Router>
+                        <Routes>
+                            <Route path="/aaa" element={<Header />} />
+                        </Routes>
+                    </Router>
+
                     <div className="top-contents">
                         <div className="big-logo-img"></div>
                         <ul className="logo-text-style">
@@ -189,6 +192,7 @@ function App() {
                     <Footer />
                 </div>
             </div>
+            </>
         );
     }
 
