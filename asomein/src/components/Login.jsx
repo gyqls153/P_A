@@ -1,12 +1,10 @@
 
 import React from 'react';
-
 import './index.css';
 import './App.css';
 import HeaderMenu from './Components/HeaderMenu';
-import LoginSns from '../Components/LoginSns';
-import Footer from '../Components/Footer';
-import '../assets/css/login.css';
+import LoginSns from './LoginSns';
+import Footer from './Footer';
 
 function Login() {
     return(

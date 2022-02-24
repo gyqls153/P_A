@@ -6,16 +6,19 @@ import Header from './Components/Header';
 import Footer from './Components/Footer';
 import Swiper from './services/Swiper';
 import Tabs from './Components/Tabs';
+import Interview from './Components/Interview';
 // import Categories from './Components/Categories';
 import './index.css';
 import './services/Swiper.js';
+//import { Link } from 'react-router-dom';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
-
 import SwiperCore, { Pagination, Autoplay, Mousewheel } from "swiper/core";
+import Terms from './Components/Term';
 SwiperCore.use([ Pagination, Autoplay, Mousewheel ])
 
-// /* Main App */
+
+//Main App
 function App() {
 
         // const [category, setCategory] = useState('all');
@@ -28,7 +31,8 @@ function App() {
 
                     <Router>
                         <Routes>
-                            <Route path="/aaa" element={<Header />} />
+                            <Route exact={true} path="/test" element={<Header />} />
+                            <Route path="/" element={<Terms />} />
                         </Routes>
                     </Router>
 
@@ -158,28 +162,7 @@ function App() {
                         </div>
                     </div>
 
-                    <div className="contents-interview">
-                        <div className="interview-title">
-                            <i className="icon-interview"></i>
-                            <p>INTERVIEW</p>
-                        </div>
-                        <div className="comments-box">
-                            <ul>
-                                <li>
-                                    <h4>머리에 쏙쏙<br/> 들어오는 <br/> 뉴스레터</h4>
-                                    <p>바이오섹터는 너무 생속한 분야라고 생각했는데 어썸레터로 또 하나 배우게됐어요`^^ 바이오에 대해서는 관심도 없었고 생각을 해본적도 없었는데, 아무것도 몰랐던 저도 이해할수 있을정도로 도움되는 정보였던것 같아요`^^</p>
-                                </li>
-                                <li>
-                                    <h4>머리에 쏙쏙<br/> 들어오는 <br/> 뉴스레터</h4>
-                                    <p>바이오섹터는 너무 생속한 분야라고 생각했는데 어썸레터로 또 하나 배우게됐어요`^^ 바이오에 대해서는 관심도 없었고 생각을 해본적도 없었는데, 아무것도 몰랐던 저도 이해할수 있을정도로 도움되는 정보였던것 같아요`^^</p>
-                                </li>
-                                <li>
-                                    <h4>머리에 쏙쏙<br/> 들어오는 <br/> 뉴스레터</h4>
-                                    <p>바이오섹터는 너무 생속한 분야라고 생각했는데 어썸레터로 또 하나 배우게됐어요`^^ 바이오에 대해서는 관심도 없었고 생각을 해본적도 없었는데, 아무것도 몰랐던 저도 이해할수 있을정도로 도움되는 정보였던것 같아요`^^</p>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
+                    <Interview />
 
                     <div className="contents-community">
                             <Tabs />

@@ -1,5 +1,5 @@
-import { Router } from "react-router-dom";
-import Login from '../pages/Login';
+//import { Link, Route } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 function Header(propss)
 {
@@ -9,9 +9,10 @@ function Header(propss)
                 어썸인 서비스 소개
             </div>
             <nav className="header-menu-list">
-                <Router path="/" element={<Login />}>로그인</Router>
-                <Router path="/">회원가입</Router>
-                <Router path="/">장바구니</Router>
+                <Link to="/" className="link">로그인</Link>
+                <Link to="/Test">회원가입</Link>
+                <Link to="/">장바구니</Link>
+                {/* <Route path="/test" exact={true} element={<></>} /> */}
             </nav>
         </header>
     )
