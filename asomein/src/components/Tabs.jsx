@@ -3,7 +3,7 @@ import React from "react";
 
 
 
-function Tabs() {
+function Tabsnotice() {
 
     const [toggleState, setToggleState] = useState(1);
     
@@ -197,9 +197,11 @@ function Tabs() {
                     </tr>
                 </table>
             </div>
-
+            <div className="more">
+                <a href="!#">더보기<br />+</a>
+            </div>
         </div>
     )
 }
 
-export default Tabs;
+export default Tabsnotice;

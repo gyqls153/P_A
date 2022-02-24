@@ -44,20 +44,16 @@ function App() {
                             <li>AWESOME LETTEER</li>
                         </ul>
                     </div> 
-                    <div className="swiper-empty-img" alt="대체이미지">
+                    <div className="swiper-empty-img">
                         <Swiper />
                     </div>
 
                     <ContentTableSection />
 
                     <Interview />
-
-                    <div className="contents-community">
-                            <Tabs />
-                        <div className="more">
-                            <a href="!#">더보기<br />+</a>
-                        </div>
-                    </div>
+                    
+                    <Tabs />
+                    
                     <Footer />
                 </div>
             </div>
