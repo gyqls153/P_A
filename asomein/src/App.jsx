@@ -24,8 +24,6 @@ function App() {
         return (
             <> 
             <div className="App">
-
-            
                 <div className="app-inner-grid">                  
 
                     <Router>
