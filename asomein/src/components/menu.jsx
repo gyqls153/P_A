@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 
 /* 탭모양의 상단페이지 네비메뉴 */
 function Submenu(propss)
@@ -5,11 +6,11 @@ function Submenu(propss)
     return(
         <nav className="header-sub-navigation">
             <ul>
-                <li><a href="!#">공지사항/새소식</a></li>
-                <li><a href="!#">경제뉴스</a></li>
-                <li><a href="!#">어썸인 YOU 퀴즈</a></li>
-                <li><a href="!#">재테크수다방</a></li>
-                <li><a href="!#">구독후기</a></li>
+                <li><Link to="/">공지사항/새소식</Link></li>
+                <li><Link to="/">경제뉴스</Link></li>
+                <li><Link to="/">어썸인 YOU 퀴즈</Link></li>
+                <li><Link to="/">재테크수다방</Link></li>
+                <li><Link to="/">구독후기</Link></li>
             </ul>
         </nav>
     )

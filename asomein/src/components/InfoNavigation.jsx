@@ -1,8 +1,8 @@
 // user info header
 function userinfo(){
     return(
-        <div class="header__navi__wrap">
-            <nav class="sub-info-nav">
+        <div className="header__navi__wrap">
+            <nav className="sub-info-nav">
                  <ul>
                     <li>나의 정보</li>
                     <li>비밀번호변경</li>
