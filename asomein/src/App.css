@@ -139,10 +139,7 @@
   word-spacing: 5px;
 }
 /* about Search Box */
-.search-inner-box{
-  min-width: 47%;
-  display: inline-flex;
-}
+.search-inner-box{ min-width: 47%; display: inline-flex; }
 .bbs-list-search{
   display: inline-flex;
   position: relative;
