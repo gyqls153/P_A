@@ -1,0 +1,24 @@
+
+.header__navi__wrap {
+    display: inline-flex; 
+    align-items: center; 
+    padding-bottom: 40px;
+}
+.sub-info-nav{ display: inline-block;}
+.sub-info-nav ul{ display:inline-flex; height: 50px; margin: 0 auto;}
+.sub-info-nav ul li{ 
+    display: inline-grid;
+    width: 149.3px;
+    text-align: center;
+    align-items: center;
+    font-size: 15px;
+    letter-spacing: 1px;
+    border: 1px solid #231815;
+}
+nav ul li:hover{
+transition: all 0.6s ease-in-out;
+transform: translateY(-10px);
+color: #FFF4F0;
+cursor: pointer;
+background-color: #FF557D;
+}

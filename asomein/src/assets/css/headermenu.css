@@ -1,0 +1,54 @@
+.App-header {
+    min-width: 100%;
+    height: 200px;
+    display: inline-flex;
+    display:-webkit-inline-flex;
+    align-items: center;
+    color: #000;
+    font-family: 'KoPubWorldDotum';
+  }
+.App-header-inner{
+    display: inline-flex;
+    min-width: 100%;
+    align-items:baseline;
+}
+.pages-header-logo{
+    margin: 15px 0;
+    padding: 19px 54px;
+    background: url(../images/asomein-Logo02.png)no-repeat;
+}
+/* middle-menu */
+.header-middle-menu-section{
+    /* border: 1px solid red; */
+    display: flex;
+    margin: 0 11.8%;
+}
+.header-middle-menu-section a{ padding: 0 75px; color: #000;}
+.header-middle-menu-section a:hover{ color: #FF557D; }
+
+/* 로그인,장바구니,회원가입 */
+.header-menu-list{
+    /* margin-left: 46.5%; 수정할것!*/
+    display: flex; 
+    justify-items: center;
+    align-items: center;
+  }
+  .header-menu-list a{
+    display: inline-flex;
+    color: black;
+    font-size: 15px;
+  }
+  .header-menu-list a:nth-child(1){
+    width: 55px;
+    padding: 0 3px 0 24px;
+    background: url(../images/icon-login.png) no-repeat;
+  }
+  .header-menu-list a:nth-child(2){
+    padding: 0 4px 0 22px;
+    width: 66px;
+    background: url(../images/icon-joinus.png) no-repeat;}
+  .header-menu-list a:nth-child(3){
+    width: 60px;
+    padding: 0 0 0 22px;
+    background: url(../images/icon-shoppingCart.png)no-repeat;
+  }
