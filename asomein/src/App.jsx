@@ -15,6 +15,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 import SwiperCore, { Pagination, Autoplay, Mousewheel } from "swiper/core";
 import Terms from './Components/Term';
+import SubTitle from './Components/SubTitle';
 SwiperCore.use([ Pagination, Autoplay, Mousewheel ])
 
 
@@ -35,7 +36,7 @@ function App() {
                             <Route path="/" element={<Terms />} />
                         </Routes>
                     </Router>
-
+                    <SubTitle color="#FFF" text="hi"></SubTitle>
                     <div className="top-contents">
                         <div className="big-logo-img"></div>
                         <ul className="logo-text-style">
