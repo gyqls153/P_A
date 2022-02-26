@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 
 // user info header
-function userinfo(){
+function Userinfo(){
     return(
         <div className="header__navi__wrap">
             <nav className="sub-info-nav">
@@ -20,4 +20,4 @@ function userinfo(){
         </div>
     )
 }
-export default userinfo;
+export default Userinfo;

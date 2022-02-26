@@ -2,15 +2,15 @@
 import React from 'react';
 import './index.css';
 import './App.css';
-import HeaderMenu from './Components/HeaderMenu';
-import LoginSns from './LoginSns';
-import Footer from './Footer';
+import PageHeader from './Components/HeaderMenu';
+import LoginSns from '../Components/LoginSns';
+import Footer from '../Components/Footer';
 
 function Login() {
     return(
         <div className="App">
             <div className="app-inner-grid">
-                <HeaderMenu />
+                <PageHeader />
                 <section className="login-section">
                     <p className="line-title">로그인</p>
 
