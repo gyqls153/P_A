@@ -1,4 +1,5 @@
 
+import { Link } from 'react-router-dom';
 
 function Userpayment(){ 
     return(
@@ -6,9 +7,10 @@ function Userpayment(){
         <div className="title__sec__box">
             <div className="notice-title-box">
                 <p>나의 결제내역</p>
-                <a href="#"></a>
+                <Link to="/"></Link>
             </div>
         </div>
+        
         <div className="tab_content">
             <div className="notice-list-inner">
                 <table>
@@ -80,8 +82,8 @@ function Userpayment(){
         <div className="pagination">
             <div className="pager-inner">
                 <div className="move-before">
-                    <a href="" className="first"></a>
-                    <a href="" className="before"></a>
+                    <Link to="/" className="first"></Link>
+                    <Link to="/" className="before"></Link>
                 </div>
                 <ul className="number-pages">
                     <li className="num">1</li>
@@ -93,8 +95,8 @@ function Userpayment(){
                     <li className="num">7</li>
                 </ul>
                 <div className="move-after">
-                    <a href="" className="next"></a>
-                    <a href="" className="end"></a>
+                    <Link to="/" className="next"></Link>
+                    <Link to="/" className="end"></Link>
                 </div>
             </div>
         </div>
