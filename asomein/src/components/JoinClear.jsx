@@ -1,7 +1,7 @@
 
 
 /* 회원가입 완료할때 화면 */
-function LoginSns(props)
+function Joinclear(props)
 {
     return(
         <section className="join-clear">
@@ -17,4 +17,4 @@ function LoginSns(props)
     )
 }
 
-export default LoginSns;
+export default Joinclear;

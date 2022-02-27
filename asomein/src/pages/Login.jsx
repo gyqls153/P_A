@@ -11,9 +11,9 @@ import Footer from '../Components/Footer';
 function Login() {
     return(
         <div className="App">
-                <div className="app-inner-grid">                  
-                    <PageHeader />
-                    <section className="login-section">
+            <div className="app-inner-grid">                  
+                <PageHeader />
+                <section className="login-section">
                         <p className="line-title">로그인</p>
 
                         <div className="login-form-sect">
@@ -30,10 +30,10 @@ function Login() {
                         <LoginSns />
 
                         </div> {/* login-form-sect */}
-                    </section>
-                    <Footer />
-                </div>
+                </section>
+                <Footer />
             </div>
+        </div>
 
     )
 }

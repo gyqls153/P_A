@@ -84,4 +84,4 @@ function Userquestion(){
         </section>
     )
 }
-export defalt Userquestion;
+export default Userquestion;
