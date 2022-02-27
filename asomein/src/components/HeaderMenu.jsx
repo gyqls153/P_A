@@ -1,5 +1,6 @@
-// import styled from 'styled-components';
 
+import '../App.css';
+import '../assets/css/headermenu.css';
 
 function PageHeader(propss)
 {

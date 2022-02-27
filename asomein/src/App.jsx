@@ -12,6 +12,7 @@ import SwiperCore, { Pagination, Autoplay, Mousewheel } from "swiper/core";
 import Terms from './Components/Term';
 import SubTitle from './Components/SubTitle';
 import Login from './pages/Login';
+import UserManagement from './pages/UserSetting';
 import Main from './Components/Main';
 SwiperCore.use([ Pagination, Autoplay, Mousewheel ])
 
@@ -29,8 +30,10 @@ function App() {
 
                     <Router>
                         <Routes>
-                            <Route path="/" element={<><Header /><Terms /><Main/></>} />
+                            <Route path="/" element={<><Main/></>} />
                             <Route path="/Login" element={<Login />} />
+                            <Route path="/subscribe" element={< />} />
+                            <Route path="/userinfo" element={<UserManagement />} />
                         </Routes>
                     </Router>
                 </div>

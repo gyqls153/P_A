@@ -3,8 +3,13 @@ import Footer from "../Components/Footer";
 
 function subscribemain(){
     return(
-        <PageHeader />
-        
+        <>
+            <PageHeader />
+            
+
+            <Footer />
+        </>
+ 
     )
 }
 export default subscribemain;
