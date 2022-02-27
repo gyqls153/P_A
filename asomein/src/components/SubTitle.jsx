@@ -1,28 +1,30 @@
 
 import styled from 'styled-components';
-
-const cc = styled.div`
-    color: ${props => props.color};
-
-/*상단 타이틀 styled*/
-.notice-title-box { display: flex; align-items: center; padding: 65px 0; }
-.notice-title-box p{ font-size: 26px; margin: 0 auto; color: #FF557D; letter-spacing: 2px;}
-.notice-title-box a{
-    padding: 16px; 
-    background: url(../images/icon-share.png)no-repeat;
-}
-
-`;
-
+import { Link } from 'react-router-dom';
+import { useState } from 'react';
 
 function SubTitle(props){
+
+    const texts = [
+        '나의 정보1', '나의 정보2', '나의 정보3', '나의 정보4','나의 정보5'
+    ]
+
+    const [currentIdx, setState] = useState(1);
+
+
+
     return(
         <>
-            <cc color={props.color} >{props.text}</cc>
-            <div class="notice-title-box">
-                <p>다른글자</p>
-                <a href="#"></a>
-            </div>
+        <ul>
+            {
+                texts.map((prop, idx) => <li key = {idx}>{prop}</li>)
+            }
+        </ul>
+            <p>
+            {
+                texts.filter((props, idx) => currentIdx === idx)
+            }
+            </p>
         </>
     )
 }

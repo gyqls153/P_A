@@ -1,8 +1,8 @@
 
 import React from 'react';
-import './index.css';
-import './App.css';
-import PageHeader from './Components/HeaderMenu';
+import '../index.css';
+import '../App.css';
+import PageHeader from '../Components/HeaderMenu';
 import LoginSns from '../Components/LoginSns';
 import Footer from '../Components/Footer';
 
@@ -36,7 +36,7 @@ function Login() {
                         </div>
                         <p>소셜아이디로 간단하게 로그인하세요</p>
                         
-                        <LoginSns />
+                    <LoginSns />
 
                      </div> {/* login-form-sect */}
                 </section>
