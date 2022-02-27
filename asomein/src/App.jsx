@@ -14,6 +14,7 @@ import SubTitle from './Components/SubTitle';
 import Login from './pages/Login';
 import UserManagement from './pages/UserSetting';
 import Main from './Components/Main';
+import Subscribemain from './pages/Subscribe';
 SwiperCore.use([ Pagination, Autoplay, Mousewheel ])
 
 
@@ -32,7 +33,7 @@ function App() {
                         <Routes>
                             <Route path="/" element={<><Main/></>} />
                             <Route path="/Login" element={<Login />} />
-                            <Route path="/subscribe" element={< />} />
+                            <Route path="/subscribe" element={<Subscribemain />} />
                             <Route path="/userinfo" element={<UserManagement />} />
                         </Routes>
                     </Router>

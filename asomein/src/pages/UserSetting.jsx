@@ -1,22 +1,25 @@
 
 import React from "react";
 
+import '../App.css';
 import PageHeader from "../Components/HeaderMenu";
 import Userinfo from "../Components/InfoNavigation";
 import Footer from "../Components/Footer";
 
 
-function userManagement(){
+function UserManagement(){
     return(
-        <>
-            <PageHeader />
-            <Userinfo />
+        <div className="App">
+            <div className="app-inner-grid">    
+                <PageHeader />
+                <Userinfo />
 
-            <Footer />
-        </>
+                <Footer />
+            </div>
+        </div>
         
 
         
     )
 }
-export default userManagement;
+export default UserManagement;

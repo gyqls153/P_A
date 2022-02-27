@@ -1,15 +1,18 @@
 import PageHeader from "../Components/HeaderMenu";
 import Footer from "../Components/Footer";
 
-function subscribemain(){
+function Subscribemain(){
     return(
-        <>
-            <PageHeader />
-            
+        <div className="App">
+            <div className="app-inner-grid">    
+                <PageHeader />
+                
+                
 
-            <Footer />
-        </>
+                <Footer />
+            </div>
+        </div>
  
     )
 }
-export default subscribemain;
+export default Subscribemain;
