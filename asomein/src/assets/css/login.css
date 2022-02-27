@@ -19,10 +19,8 @@
 .pages-header-logo{
     margin: 15px 0;
     padding: 19px 54px;
-    background: url(/asomein-Logo02.png)no-repeat;
-    /* background: url(./assets/images/asomein-Logo02.png)no-repeat; */
+    background: url(../images/asomein-Logo02.png)no-repeat;
 }
-
 /* middle-nav */
 .header-middle-menu-section{
     display: flex;
@@ -109,6 +107,7 @@ nav ul li:hover{
 }
 .cellphone-number{ min-width: 94%; margin-left: 19px; }
 .cellphone-number input{ margin-left: 0; }
+
 /* 비밀번호잃어버렸을때 스타일 */
 .find-in-pw{
   width: 31%;

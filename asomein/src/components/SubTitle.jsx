@@ -10,9 +10,7 @@ function SubTitle(props){
     ]
 
     const [currentIdx, setState] = useState(1);
-
-
-
+    
     return(
         <>
         <ul>
