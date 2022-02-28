@@ -1,7 +1,7 @@
 
 import { Link } from 'react-router-dom';
 
-function Pagenation (){
+function PageNation (){
     return(
         <div className="pagination">
             <div className="pager-inner">
@@ -26,4 +26,4 @@ function Pagenation (){
         </div>
     )
 }
-export default Pagenation;
+export default PageNation;

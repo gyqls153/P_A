@@ -1,0 +1,87 @@
+
+/* 공지사항 게시판 */
+.notice__Wrap{ max-width: 85%; margin: 0 auto; }
+/* 공지사항/새소식 title */
+.notice-title-box { display: flex; align-items: center; padding: 65px 0; }
+.notice-title-box p{ font-size: 26px; margin: 0 auto; color: #FF557D; letter-spacing: 2px;}
+.notice-title-box a{
+    padding: 16px; 
+    background: url(../images/icon-share.png)no-repeat;
+}
+
+/* about Search Box */
+.notice__table__box{ display: flex; justify-content: space-between; }
+.notice__table__box span{ font-size: 12px; color: #9F9D99; word-spacing: 2px; }
+.search-section{ display: flex; align-items: center; }
+.search-section input{
+  width: 256px;
+  height: 10px;
+  padding: 10px 8px;
+  background-color: transparent;
+  border:1px solid #231815;
+  border-right:none;
+  font-size: 16px;
+}
+.search-inner-selectBox{
+height: 30px;
+  background: transparent;
+  text-align: center;
+  margin-right: 12px;
+  padding: 0 7px 0 7px;
+  letter-spacing: 3px;
+  border: 1px solid #231815;
+}
+select::-ms-expand { display: none; }
+.search-section button{
+  cursor: pointer;
+  width: 30px;
+  padding: 15px;
+  height: 30px;
+  border: 1px solid #231815;
+  background: url(../images/icon-search.png)4px 4px no-repeat;/*icon-location*/
+}
+
+/* table-list 공지사항 게시판 */
+.image-list-contents{ min-width: 100%; display: flex; padding: 29px 0; border-bottom: 1px dotted #231815;}
+.image-list-contents div img{
+    border: 1px solid #231815;
+    width: 212px;
+    height: 111px;
+}
+.list__box{ margin: 0 30px;}
+.list__box p:nth-child(1){ font-size: 20px; }
+.image-list-contents div p{ max-width: 70%; font-size: 15px; }
+.data-list{ margin: 15px 0;}
+.data-list span{ color: #FF557D; font-size: 12px; padding-right:  30px;}
+
+/* 더보기 아이콘 */
+.image-notice-list-inner .more{  text-align: center; padding: 20px 0 60px 0; }
+.image-notice-list-inner .more a{ font-size: 14px; text-decoration: none; color: #231815;}
+
+
+/* PageNation styling  */
+.pagination{     
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+.pager-inner{
+  min-width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 30px 0;
+}
+/* PageNation Arrow-icon */
+.move-before{ display: flex; align-items: center; margin: 0 10px;}
+.move-before .before{ padding: 9px; margin-left:7px; background: url(../images/icons-pageenations.png) no-repeat; }
+.move-after .next{ padding: 9px; margin-right: 7px; background: url(../images/icons-pageenations.png)-21px 0 no-repeat; }
+
+.pager-inner ul{ display: flex; justify-content:center; align-items: center;}
+.pager-inner ul li{ font-size: 14px; padding: 0 7px; width: 19px;}
+.pager-inner ul li:hover{ text-decoration: dashed; cursor: pointer; }
+.pager-inner ul li:active{ color: #FF557D; font-weight: 600; }
+
+.move-after{ display: flex; align-items: center; margin: 0 10px; }
+.move-before .first{ padding: 9px; background: url(../images/icon-double-arrow.png) no-repeat; }
+.move-after .end{ padding: 9px; background: url(../images/icon-double-arrow.png)-19px 0 no-repeat; }

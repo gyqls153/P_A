@@ -1,0 +1,83 @@
+/* 타이틀, 검색*/
+.notice__Wrap{ max-width: 85%; margin: 0 auto; }
+.notice-title-box { display: flex; align-items: center; padding: 45px 0; }
+.notice-title-box p{ font-size: 26px; margin: 0 auto; color: #FF557D; letter-spacing: 2px;}
+.notice-title-box a{
+    padding: 16px; 
+    background: url(../images/icon-share.png)no-repeat;
+}
+/* about Search Box */
+.notice__table__box{ display: flex; justify-content: space-between; margin-bottom: 15px;}
+.notice__table__box span{ font-size: 12px;color: #000; margin: 0 5px; word-spacing: 2px; }
+.notice__table__box p{ font-size: 12px; color: #9F9D99; word-spacing: 2px;}
+.search-section{ display: flex; align-items: center; }
+.search-section input{
+  width: 256px;
+  height: 10px;
+  padding: 10px 8px;
+  background-color: transparent;
+  border:1px solid #231815;
+  border-right:none;
+  font-size: 16px;
+}
+.search-inner-selectBox{
+  height: 30px;
+  background: transparent;
+  text-align: center;
+  margin-right: 12px;
+  padding: 0 7px 0 7px;
+  letter-spacing: 3px;
+  border: 1px solid #231815;
+}
+select::-ms-expand { display: none; }
+.search-section button{
+  cursor: pointer;
+  width: 30px;
+  padding: 15px;
+  height: 30px;
+  border: 1px solid #231815;
+  background: url(../images/icon-search.png)4px 4px no-repeat;/*icon-location*/
+}
+
+/* 어썸인 문의게시판 */
+table{
+	min-width: 100%;
+	font-size: 15px;
+    border-collapse: collapse;
+}
+table tr td{ border-bottom:1px dotted #9F9D99; }
+table thead tr td{text-align: center; padding: 14px 0; border: 1px solid #231815; }
+.support-tbody-list tr td{ text-align: center; padding: 20px 0; }
+.support-tbody-list .tbs-notice { text-align: left; padding-left: 8%;}
+.support-tbody-list a{
+	text-align: left;
+	text-decoration: none;
+	color: #231815;
+}
+.icon-lock{padding:15px; background: url();}
+.support-tbody-list .last{ text-align: center; }
+tbody tr:last-child{ border-bottom: 1px solid #231815; }
+.support-tbody-list .subject_type,
+.support-tbody-list .txt_dDay
+{ text-align: center;}
+.last{ font-size: 15px; font-weight: 400; color: #FF557D; }
+tbody tr .clear{background-color: #FF557D; padding: 3px; color: #FFF4F0;font-size: 14px;}
+.icon-lock{ margin: 0 8px; padding: 2px 9px; background: url(../images/icon-lock.png)no-repeat; }
+.icon-answer { padding: 1px 7px; margin: 0 11px 0 30px; background: url(../images/icon-answer.png)no-repeat; }
+
+/* 하단 글쓰기 버튼 */
+.notice__Wrap .write-btn{
+    display: flex;
+    margin: 40px auto;
+    padding: 5px 40px;
+    border-radius: 15px;
+    border: none; 
+    color: #FF557D;
+    background-color: rgba(255, 85, 125, 0.2) ;
+    font-size: 15px; 
+}
+.notice__Wrap .write-btn:active{
+    color: #FFF4F0;
+    opacity: 1;
+    background-color:#FF557D ;
+}
