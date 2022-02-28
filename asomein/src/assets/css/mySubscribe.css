@@ -1,0 +1,38 @@
+/* 타이틀, 검색*/
+.info__Wrap{ max-width: 85%; margin: 0 auto; }
+.notice-title-box { display: flex; align-items: center; padding: 65px 0; }
+.notice-title-box p{ font-size: 26px; margin: 0 auto; color: #FF557D; letter-spacing: 2px;}
+.notice-title-box a{ padding: 16px; background: url(../images/icon-share.png)no-repeat;}
+
+/* 구독서비스 my-page */
+.user-info-subscribe{
+  max-width: 54%;
+  height: 500px;
+  margin: 0 auto;
+}
+.subscribe-info-inner{
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #231815;
+  border-radius: 15px;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+.subscribe-info-inner .info-left{ display: flex; align-items: center; }
+.n-day{ color: #FF557D; }
+.info-left p:first-child{ margin-right: 20px; width: 50px; }
+.subscribe-info-inner p{ font-size: 20px; word-spacing: 1.5px;}
+.info-right{ display: block; }
+.subscribe-info-inner .day-subscribe, .day-subscribe span{ font-size: 11px; }
+.day-subscribe { text-align: right; padding: 11px 0;}
+.subscribe-service-btn button{ 
+  width: 90px;
+  padding: 7px;
+  margin-left: 5px;
+  color: #FF557D;
+  font-size: 12px;
+  border: none;
+  background-color: rgba(255, 85, 125, 0.07) ;
+}
+.subscribe-service-btn button:hover{ color: #FFF4F0; background-color:#FF557D;}
+.subscribe-service-btn button:active{ color: #FFF4F0; background-color:#FF557D;}

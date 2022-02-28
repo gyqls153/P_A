@@ -1,0 +1,56 @@
+
+/* 타이틀, 검색*/
+.info__Wrap{ max-width: 85%; margin: 0 auto; }
+.notice-title-box { display: flex; align-items: center; padding: 65px 0; }
+.notice-title-box p{ font-size: 26px; margin: 0 auto; color: #FF557D; letter-spacing: 2px;}
+.notice-title-box a{ padding: 16px; background: url(../images/icon-share.png)no-repeat;}
+
+ /* 내정보 변경하기 페이지 */
+  .user-info-inner{
+    width: 370px;
+    height: 440px;
+    margin: 0 auto;
+  }
+  /* FormBox section */
+  .check-icon{ padding: 0 9px; background: url(../images/icon-check.png)no-repeat; }
+  .Login-form-box{
+    min-width: 100%;
+    display: block;
+  }
+  .user-join{min-width: 100%; height: 50px;margin: 30px 0;}
+  .user-join label{ font-size: 17px; }
+  .user-join input{ 
+    display: block;
+    min-width: 95%;
+    height: 30px;
+    margin-left: 17px; 
+    border:none;
+    border-bottom: 1px solid #858480; 
+    background-color: transparent; 
+  }
+  /* 비밀번호잃어버렸을때 스타일 */
+  .find-in-pw{
+    width: 31%;
+    margin-top: 23px;
+    margin-left: 15px;
+    height: 19px;
+    border-bottom: 1px solid #999892;
+  }
+  .find-in-pw a{ font-size: 10px; padding:30px 0; color: #000;}
+  .user-join input::placeholder{letter-spacing: 1px; color: #9F9D99;}
+  .user-join input::-webkit-input-placeholder{letter-spacing: 1px; color: #9F9D99;}
+  .user-join input::-ms-input-placeholder{letter-spacing: 1px; color: #9F9D99;}
+
+/* 긴 버튼 스타일링 */
+button{
+    width: 370px;
+    height: 40px;
+    border: none;
+    border-radius: 19px;
+    background-color: rgba(255, 85, 125, 0.07) ;
+    color: #FF557D;
+    margin: 30px 0; 
+    cursor: pointer;
+}
+button:hover{ background-color: #FF557D; color: #fff; cursor: pointer; }
+button:active{ background-color: #FF557D; color: #fff;cursor: pointer; }

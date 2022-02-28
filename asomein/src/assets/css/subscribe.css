@@ -1,0 +1,69 @@
+
+
+.notice-title-box { display: flex; align-items: center; padding: 15px 0; background-color: #FF557D; }
+.notice-title-box p{ font-size: 26px; margin: 0 auto 0 41%; color: #FFF4F0; letter-spacing: 2px;}
+.notice-title-box a{ margin-right: 8%; padding: 16px; background: url(../images/icon-share.png)no-repeat;}
+
+/* 구독하기 */
+.subscribe-section{ min-width: 100%; }
+.subscribe-sec-start{ display: flex; justify-content: space-around; margin: 90px 0; }
+
+.subscribe-image{ width: 510px; height: 420px; background: url(../images/image-subscribe.png)no-repeat; }
+
+/* 월간구독 및 구매 및 가격 클릭 content */
+.subs-payment-box{ }
+.choose-btn-sect{margin-bottom: 30px; border: 1px solid #231815; border-radius: 15px; display: flex; justify-content: space-between; }
+.checked{ margin: 30px; padding: 17px 17px; background: url(../images/icon-subscribe-check.png)no-repeat; }
+
+.select-box-title{ width: 300px;}
+.select-box-title p{ font-size: 22px; letter-spacing: 1px; padding: 10px 0;}
+
+.search-section{ display: flex; align-items: center; }
+.search-inner-selectBox{
+  width: 210px;
+  height: 30px;
+  background: transparent;
+  padding: 0 7px 0 7px;
+  letter-spacing: 1px;
+  border: 1px solid #231815;
+}
+select::-ms-expand { display: none; }
+/* 최종결제금액 및 구매정보 구독 */
+.price{ 
+  margin-bottom: 15px; 
+  width: 160px; 
+  font-size: 22px; 
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+}
+.pay-info-box{  }
+.pay-info-box ul{ display: flex; align-items: center; justify-content:flex-start; margin: 40px 0;}
+.pay-info-box ul li{ padding: 0 5px; }
+.pay-info-box ul li:nth-child(1){ margin-right: 10px;padding: 15px 18px; background:url(../images/icon-card-paper-bag.png)no-repeat;}
+.pay-info-box ul li:nth-child(2){ font-size: 19px; margin-right: 30px;}
+.pay-info-box ul li:nth-child(3){ font-size: 15px; }
+.pay-info-box ul li:nth-child(4){ color: #FF557D; font-size: 18px; margin-right: 30px;}
+.pay-info-box ul li:nth-child(5){ color: #FF557D; font-size: 15px;}
+.pay-info-box ul li:nth-child(6){ font-size: 15px; text-align: center; color: #FF557D; font-size: 27px; }
+.start-subscribe-btn{ display: flex; justify-content: space-between; margin: 30px 0; }
+.start-subscribe-btn button{ 
+  width: 270px;
+  padding: 10px 0;
+  color: #FF557D;
+  font-size: 17px;
+  letter-spacing: 0.5px;
+  border: none;
+  background-color: rgba(255, 85, 125, 0.07) ;
+}
+.start-subscribe-btn button:nth-child(1) .btn-icon-cnt{ margin-right: 7px; padding: 7px 13px; background: url(../images/icons-shopping-paper-color.png)no-repeat; }
+.start-subscribe-btn button:nth-child(2) .btn-icon-cnt{ margin-right: 5px; padding: 6px 14px; background: url(../images/icon-card-paper-bag.png)-38px no-repeat; }
+
+.start-subscribe-btn button:hover{ color: #FFF4F0; background-color:#FF557D;}
+.start-subscribe-btn button:active{ color: #FFF4F0; background-color:#FF557D;}
+.start-subscribe-btn button:active:focus{border: none;}
+/* text area */
+article{ max-width: 100%; height: 600px; background-color: #fff; margin: 100px 0; border-radius: 15px;}
+textarea{ width: 70%; height: 500px; margin: 30px 15%; }
+
+.profile-comment{ min-width: 70%; height: 150px; border: 1px solid red; margin: 50px 0; }

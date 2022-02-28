@@ -13,13 +13,9 @@ function UserManagement(){
             <div className="app-inner-grid">    
                 <PageHeader />
                 <Userinfo />
-                
                 <Footer />
             </div>
         </div>
-        
-
-        
     )
 }
 export default UserManagement;

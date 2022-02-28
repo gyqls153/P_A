@@ -1,84 +1,64 @@
 import { Link } from 'react-router-dom';
+import PageNation from "./Pagenation";
 
-function Userpointtable(){
+function UserPointTable(){
     return(
-        <section className="info__Wrap">
-            <div className="title__sec__box">
-                <div className="notice-title-box">
-                    <p>나의 장바구니</p>
-                    <Link to="/"></Link>
-                </div>
-            </div>
-
-            <h3>주문상품</h3>
-            
-            <div className="tab_content">
-                <div className="notice-list-inner">
-                    <table>
-                        <thead>
-                            <tr scope="col" className="support-tb-inner">
-                                <td><input type="checkbox" /></td>
-                                <td>상품명</td>
-                                <td>기간</td>
-                                <td>상품가격</td>
-                                <td>신청일</td>
-                            </tr>
-                        </thead>
-                        <tbody className="support-tbody-list">
-                            <tr>
-                                <td className="check-list"><input type="checkbox" /></td>
-                                <td className="tbs-notice">
-                                    <Link to="/">최신구독30회 패키지</Link>
-                                </td>
-                                <td className="txt_Day">3개월</td>
-                                <td className="price">79,000원</td>
-                                <td className="">2020-11-30</td>
-                                <td className=""><i className="icon-Delet"></i></td>
-                            </tr>
-                        </tbody> 
-                    </table>
-                    <div className="tbs-total-num">
-                        <p>선택 상품금액 <span>79,000원</span></p>
-                        <p>총 결제금액 <span className="total-num-data">79,000원</span></p>
-                    </div> 
-                </div>
-
-                <div className="payment-box">
-                    <h3>결제수단</h3>
-                    <form className="payment-type">
-                        <input type="radio" id="credit" name="card" value="" checked />
-                        <label for="credit">신용카드</label>
-
-                        <input type="radio" id="credit" name="card" value="" checked />
-                        <label for="credit">무통장입금</label>
-                        
-                        <input type="radio" id="credit" name="card" value="" checked />
-                        <label for="credit">실시간계좌이체</label>
-
-                        <input type="radio" id="credit" name="card" value="" checked />
-                        <label for="credit">휴대폰결제</label>
-                    </form>
-                </div>
-
-                <div className="asomein-point">
-                    <h3>어썸인 포인트</h3><span>(2,000P)</span>
-                    <div className="point-input-box">
-                        <input type="text" />
-                        <label for="useinfo">1,000 포인트부터 사용 가능합니다.</label>
+        <>
+            <section className="notice__Wrap">
+                <div className="title__sec__box">
+                    <div className="notice-title-box">
+                        <p>나의 포인트</p>
+                        <Link to="/"></Link>
                     </div>
                 </div>
 
-                <div className="asomein-total-pay">
-                    <h3>최종 결제정보</h3>
-                    <div className="point-total-btn-box">
-                        <p>사용포인트<span>-2,000</span>원</p>
-                        <p>총 결제금액 <span className="total-num-data">79,000원</span></p>
-                        <button type="button">결제하기</button>
-                    </div>
+                <div className="mypoint-show-box">
+                    <p>총 적립 포인트(사용가능 포인트) <span>2,000</span> p</p>
                 </div>
 
-            </div>
-        </section>
+                <div className="tab_content">
+                    <div className="notice-list-inner">
+                        <table>
+                            <thead>
+                                <tr scope="col" className="support-tb-inner">
+                                    <td>적용일자</td>
+                                    <td>마일리지 적립 및 사용내역</td>
+                                    <td>적립포인트 (+)</td>
+                                    <td>사용포인트 (-)</td>
+                                </tr>
+                            </thead>
+                            <tbody className="support-tbody-list">
+                                <tr>
+                                    <td className="txt_Day">2021-12-06</td>
+                                    <td className="tbs-notice">최초 신규 회원가입</td>
+                                    <td className="earn-plus">1,000</td>
+                                    <td className="earn-using">입금대기</td>
+                                </tr>
+                                <tr>
+                                    <td className="txt_Day">2021-12-06</td>
+                                    <td className="tbs-notice">이용후기 작성확인</td>
+                                    <td className="earn-plus">1,000</td>
+                                    <td className="earn-using">입금대기</td>
+                                </tr>
+                                <tr>
+                                    <td className="txt_Day">2021-12-06</td>
+                                    <td className="tbs-notice">이용후기 작성확인</td>
+                                    <td className="earn-plus">1,000</td>
+                                    <td className="earn-using"></td>
+                                </tr>
+                                <tr>
+                                    <td className="txt_Day">2021-12-06</td>
+                                    <td className="tbs-notice">부동산ONLY 단일 결제 회수</td>
+                                    <td className="earn-plus"></td>
+                                    <td className="earn-using">-1,000</td>
+                                </tr>
+                            </tbody>  
+                        </table>
+                    </div>
+                </div>
+                <PageNation />
+            </section>
+        </>
     )
 }
-export default Userpointtable;
+export default UserPointTable;

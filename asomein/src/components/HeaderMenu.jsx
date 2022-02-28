@@ -1,5 +1,6 @@
 
 import { Link } from 'react-router-dom';
+import IntroAsomein from './IntroAsomein';
 
 function PageHeader(propss)
 {
@@ -9,7 +10,7 @@ function PageHeader(propss)
             <div class="header-middle-menu-section">
                 <Link to="/">HOME</Link>
                 <Link to="/">커뮤니티</Link>
-                <Link to="/">어썸인 서비스 소개</Link>
+                <Link to="/introAsomein" element={<IntroAsomein />}>어썸인 서비스 소개</Link>
             </div>
             <nav className="header-menu-list">
                 <Link to="/Login">로그인</Link>

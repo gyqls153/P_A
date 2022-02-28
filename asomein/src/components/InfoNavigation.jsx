@@ -2,6 +2,15 @@
 import Preparing from './Preparing';
 import { useState } from 'react';
 
+import UseInfo from './UseInfo';
+import UserInfoPassword from './UserInfoPassword';
+import Userinfosubscribe from './UserInfoSubscribe';
+import Usershopping from './Usershopping';
+import UserPayment from './UserPayment';
+import Userquestion from './Userquestion';
+import UserWriteTable from './UserWriteTable';
+import UserPointTable from './UserPointTable';
+
 
 
 
@@ -11,16 +20,16 @@ function Userinfo(props){
     const [tab, setTab] = useState(0);
 
     const UserInfonav = () => {
-        if (tab === 0) { return (<Preparing />) }
-            else if (tab === 1) {return (<Preparing />)}
-            else if (tab === 2) {return (<Preparing />)}
-            else if (tab === 3) {return (<Preparing />)}
-            else if (tab === 4) {return (<Preparing />)}
-            else if (tab === 5) {return (<Preparing />)}
-            else if (tab === 6) {return (<Preparing />)}
-            else if (tab === 7) {return (<Preparing />)}
+        if (tab === 0) { return (<UseInfo />) }
+            else if (tab === 1) {return (<UserInfoPassword />)}
+            else if (tab === 2) {return (<Userinfosubscribe />)}
+            else if (tab === 3) {return (<Usershopping />)}
+            else if (tab === 4) {return (<UserPayment />)}
+            else if (tab === 5) {return (<UserWriteTable />)}
+            else if (tab === 6) {return (<Userquestion />)}
+            else if (tab === 7) {return (<UserPointTable />)}
             else if (tab === 8) {return (<Preparing />)}
-            else return(<Preparing />)
+            else return(<UseInfo />)
     }
 
     return(
