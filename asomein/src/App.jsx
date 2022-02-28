@@ -36,7 +36,7 @@ function App() {
                             <Route path="/join" element={<Joinasomein />} />
                             <Route path="/welcome" element={<Joinclear />} />
 
-                            <Route path="/notice" elment={<Notice />} />
+                            <Route path="/notice" elment={<Notice />} />새로운 게시판라우터생성
                             <Route path="/subscribe" element={<Subscribemain />} />
                             <Route path="/userinfo" element={<UserManagement />} />
                         </Routes>

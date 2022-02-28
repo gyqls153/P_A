@@ -13,7 +13,7 @@ function PageHeader(propss)
             </div>
             <nav className="header-menu-list">
                 <Link to="/Login">로그인</Link>
-                <Link to="/">회원가입</Link>
+                <Link to="/join">회원가입</Link>
                 <Link to="/">장바구니</Link>
             </nav>
         </header>

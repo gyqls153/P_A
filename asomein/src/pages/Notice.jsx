@@ -7,6 +7,7 @@ import '../index.css';
 import '../assets/css/reset.css';
 import PageHeader from "../Components/HeaderMenu";
 import Navimenu from "../Components/Navigation";
+import Footer from '../Components/Footer';
 
 
 function Notice() {
@@ -98,6 +99,7 @@ function Notice() {
                 
 
                 </section>
+                <Footer />
             </div>
         </div>     
     )

@@ -7,6 +7,7 @@ function Subscribemain(){
             <div className="app-inner-grid">    
                 <PageHeader />
                 
+                <p>안녕하세요테스트중입니다</p>
                                 
 
                 <Footer />
