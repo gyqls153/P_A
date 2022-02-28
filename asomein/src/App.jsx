@@ -20,13 +20,10 @@ SwiperCore.use([ Pagination, Autoplay, Mousewheel ])
 //Main App
 function App() {
 
-        // const [category, setCategory] = useState('all');
-        // const onSelect = 지useCallBack(category => setCategory(category), []);
-
         return (
             
             <div className="App">
-                <div className="app-inner-grid">ㅈ
+                <div className="app-inner-grid">
 
                     <Router>
                         <Routes>
