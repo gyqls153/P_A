@@ -2,16 +2,14 @@ import React from 'react';
 // import { useState, useCallBack } from 'react';
 // import { Swiper, SwiperSlide } from 'swiper/react';
 import './App.css';
-import Header from './Components/Header';
 // import Categories from './Components/Categories';
 import './index.css';
 import './services/Swiper.js';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 import SwiperCore, { Pagination, Autoplay, Mousewheel } from "swiper/core";
-import Terms from './Components/Term';
-import SubTitle from './Components/SubTitle';
 import Login from './pages/Login';
+import Notice from './pages/Notice';
 import Joinclear from './Components/JoinClear';
 import UserManagement from './pages/UserSetting';
 import Main from './Components/Main';
@@ -35,9 +33,10 @@ function App() {
                         <Routes>
                             <Route path="/" element={<><Main/></>} />
                             <Route path="/Login" element={<Login />} />
-                            <Route path='/join' element={<Joinasomein />} />
-                            <Route path='/welcome' element={<Joinclear />} />
-                            
+                            <Route path="/join" element={<Joinasomein />} />
+                            <Route path="/welcome" element={<Joinclear />} />
+
+                            <Route path="/notice" elment={<Notice />} />
                             <Route path="/subscribe" element={<Subscribemain />} />
                             <Route path="/userinfo" element={<UserManagement />} />
                         </Routes>
