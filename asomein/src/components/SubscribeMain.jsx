@@ -1,4 +1,6 @@
 import { Link } from "react-router-dom";
+
+import Comment from "./Comment";
 import '../assets/css/subscribe.css';
 
 function SubscribeMain(){
@@ -86,9 +88,7 @@ function SubscribeMain(){
                     </textarea>
                 </article>
                 
-                <div className="profile-comment">
-                    프로필 + 댓글창
-                </div>
+                <Comment />
             </section>
         </>
     )

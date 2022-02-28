@@ -1,0 +1,45 @@
+.comment{ min-width: 70%;  margin: 50px 0;  }
+.comment-title{ display: flex; align-items: center; margin-bottom: 20px;}
+.comment-buble-icon{ margin-right: 5px; padding: 15px; background:url(../images/icon-comment-bubble.png)no-repeat; }
+.comment-inner-box{ padding-bottom: 7px; border-bottom: 1px dotted #231815; }
+.comment-subject-inner{ 
+  display: inline-grid;
+  max-width: 92.6%;
+  margin: 0 0 20px 9px; 
+}
+.profile{ 
+  position: relative;
+  border: 1px solid red;
+  border-radius: 40px;
+  top: 27px;
+  display: inline;
+  margin: 2px;
+  padding: 30px 40px; 
+  background: url(../images/icon-profile-picture.png)7px 9px no-repeat; 
+}
+.user-id-timeline{
+  max-width: 100%;  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.user-id-timeline p{ font-size: 17px; }
+.user-id-timeline span{ font-size: 13px; color: #9F9D99; }
+.user-in-comment{ font-size: 15px; line-height: 20px; word-spacing: 1px; }
+
+form{ border: 1px solid #231815; margin: 30px 0; }
+form input{ 
+  background-color: transparent;
+  border: none;
+  padding: 15px 25px;
+  font-size: 15px;
+  min-width: 91%;
+}
+.comment-btn-submit{ 
+  width: 60px;
+  margin: 0;
+  color: #000;
+  border: none;
+  background-color: transparent; 
+}
