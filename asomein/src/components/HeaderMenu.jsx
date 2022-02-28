@@ -1,6 +1,5 @@
 
-import '../App.css';
-import '../assets/css/headermenu.css';
+import { Link } from 'react-router-dom';
 
 function PageHeader(propss)
 {
@@ -8,14 +7,14 @@ function PageHeader(propss)
         <header className="App-header">
             <span className="pages-header-logo"></span>
             <div class="header-middle-menu-section">
-                <a href="#!">HOME</a>
-                <a href="#!">커뮤니티</a>
-                <a href="#!">어썸인 서비스 소개</a>
+                <Link to="/">HOME</Link>
+                <Link to="/">커뮤니티</Link>
+                <Link to="/">어썸인 서비스 소개</Link>
             </div>
             <nav className="header-menu-list">
-                <a href="#!">로그인</a>
-                <a href="#!">회원가입</a>
-                <a href="#!">장바구니</a>
+                <Link to="/Login">로그인</Link>
+                <Link to="/">회원가입</Link>
+                <Link to="/">장바구니</Link>
             </nav>
         </header>
     )

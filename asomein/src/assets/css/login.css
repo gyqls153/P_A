@@ -1,21 +1,4 @@
 
-.App { background-color: #FFF4F0; }
-.app-inner-grid{
-   /*수정들어감 옮길때 건들이지말것*/
-    width: 1360px;
-    margin: 0 auto;
-  }
-  .App-header {
-    min-width: 100%;
-    height: 200px;
-    display: inline-flex;
-    display:-webkit-inline-flex;
-    align-items: center;
-    color: #000;
-    font-family: 'KoPubWorldDotum';
-    border: 1px solid red;
-  }
-.App-header-inner{ display: inline-flex; min-width: 100%; align-items:baseline; }
 .pages-header-logo{
     margin: 15px 0;
     padding: 19px 54px;
@@ -23,8 +6,9 @@
 }
 /* middle-nav */
 .header-middle-menu-section{
-    display: flex;
-    margin: 0 11.8%;
+  min-width: 50%;
+  display: flex;
+  margin: 0 11.8%;
 }
 .header-middle-menu-section a{ padding: 0 75px; color: #000;}
 .header-middle-menu-section a:hover{ color: #FF557D; }
@@ -41,14 +25,14 @@
     color: black;
     font-size: 15px;
   }
-  .header-menu-list a:nth-child(1){ width: 55px; padding: 0 3px 0 24px; background: url(./assets/images/icon-login.png) no-repeat;}
-  .header-menu-list a:nth-child(2){ padding: 0 4px 0 22px; width: 66px; background: url(./assets/images/icon-joinus.png) no-repeat;}
-  .header-menu-list a:nth-child(3){ width: 60px; padding: 0 0 0 22px; background: url(./assets/images/icon-shoppingCart.png)no-repeat;}
+  .header-menu-list a:nth-child(1){ width: 55px; padding: 0 3px 0 24px; background: url(../images/icon-login.png) no-repeat;}
+  .header-menu-list a:nth-child(2){ padding: 0 4px 0 22px; width: 66px; background: url(../images/icon-joinus.png) no-repeat;}
+  .header-menu-list a:nth-child(3){ width: 60px; padding: 0 0 0 22px; background: url(../images/icon-shoppingCart.png)no-repeat;}
 
 /* navigation - 서브페이지 및 해더바로 아래 메뉴 */
-.header__navi__wrap {display: inline-flex; align-items: center; padding-bottom: 40px;}
-nav{ display: inline-block; }
-nav ul{ display:inline-flex; height: 50px; margin: 0 0 0 15px;}
+.header__navi__wrap { width: 100%; display: inline-flex; align-items: center; padding-bottom: 40px; }
+nav{ display: inline-block; max-width: 100%; }
+nav ul{ display:flex; height: 50px;}
 nav ul li{ 
   display: inline;
   width: 200px;
@@ -58,10 +42,6 @@ nav ul li{
   letter-spacing: 1px;
   border: 1px solid #231815;
 }
-/* nav ul li.active{
-  cursor: pointer;
-  /* display: block;
-}*/
 nav ul li:hover{
   transition: all 0.6s ease-in-out;
   transform: translateY(-10px);
@@ -86,7 +66,7 @@ nav ul li:hover{
 .login-form-sect{
   width: 370px;
   height: 440px;
-  margin: 110px auto;
+  margin: 50px auto;
 }
 /* Main-Login FormBox section */
 .check-icon{ padding: 0 9px; background: url(../images/icon-check.png)no-repeat; }
@@ -129,11 +109,58 @@ nav ul li:hover{
 }
 .show-page-line-styled p{ width: 100%; padding: 13px 0;font-size: 14px; }
 .show-page-line-styled p:nth-child(1){ border-bottom: 5px solid #FF557D; }
-.show-page-line-styled p:nth-child(2){ font-size: 13px; height: 17px; border-bottom: 1px solid #FF557D; }
+.show-page-line-styled p:nth-child(2){ font-size: 13px; height: 20px; border-bottom: 1px solid #FF557D; }
+
+
+/* 약관동의, 마케팅수신동의 */
+.terms{ width: 370px; margin: 0 auto;}
+.terms__wrap{ min-width: 100%; }
+.termd__title{ border-bottom: 1px solid #999892; height: 30px; margin: 17px 0;}
+.termd__title p{ font-size: 17px; text-align: left; }
+.terms__checkbox input[type="checkbox"]{ background-color: #999892;}
+.terms__checkbox a{ font-size: 8px; text-decoration: revert; color: rgb(156, 156, 156); margin-right: 10px;}
+.terms__checkbox label{ font-size: 10px; margin: 5px 0; }
+.terms__checkbox .all-select {font-size: 15px; padding: 5px 0;}
+/* 마케팅동의(선택) */
+
+/* 약관동의(필수) */
+.terms__subject_Required{ margin-top: 15px; }
+
+.join-clear{
+  width: 370px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 30px 0 0 0;
+  border: 1px solid red;
+}
+.complete-join-site{ display: block; margin: 20px 0; border: 1px solid red;}
+.show-icon{padding: 16px 25px; background: url(../images/joinus-complete-icon.png)no-repeat; }
+.user-name{ font-size: 20px; }
+.join-clear button{
+  width: 370px;
+  height: 40px;
+  border: none;
+  border-radius: 19px;
+  background-color: #FF557D;
+  color: #fff;
+  margin: 30px 0;
+}
+/* 회원가입 긴 버튼 스타일링 */
+.terms__wrap button{
+  width: 370px;
+  height: 40px;
+  border: none;
+  border-radius: 19px;
+  background-color: #FF557D;
+  color: #fff;
+  margin: 30px 0;
+}
+
 /* SNS으로 가입 */
 .login-section p{ font-size: 12px; text-align: center;margin: 25px 0;}
 .login-sns{
-  width: 100%;
+  width: 370px;
+  margin: 0 auto;
   display: flex;
   justify-content: space-evenly;
   align-items: center;

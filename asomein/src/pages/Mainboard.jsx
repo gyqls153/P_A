@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-
+import '../assets/css/reset.css';
 // 공지사항 / 새소식 img 게시판
 function imgtable(){
     return(

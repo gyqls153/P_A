@@ -1,14 +1,15 @@
 
 import React from 'react';
-import '../assets/css/body.css';
 
-function Login() {
+function Bodylayout() {
     return(
-        <div>
-            
-        </div>
+        <div className="App">
+            <div className="app-inner-grid">
+
+            </div>
+        </div> 
 
     )
 }
 
-export default Login;
+export default Bodylayout;

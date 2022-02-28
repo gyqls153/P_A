@@ -1,2 +1,11 @@
 
-input:focus, textarea:focus{outline: none;}
+
+
+*{ list-style: none; text-decoration: none; margin: 0; padding: 0; }
+  
+  body {
+    font-family: 'KoPubWorldDotum';
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  input:focus, textarea:focus{outline: none;}

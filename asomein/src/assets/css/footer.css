@@ -1,0 +1,30 @@
+/* footer */
+footer{width: 100%; padding: 22px 0;}
+.footer-bottom{ display: flex; padding: 12px 0 70px 0; }
+.foot-bottom-inner{ min-width: 60%; }/*최상단 바로아래 div-cover, className 헷깔림 확인주의*/
+
+.footer-bottom-menu{ max-width: 60%; padding: 5px 0;}
+.footer-bottom-menu a{ font-size: 13px; font-weight: 600; text-decoration: none; color: #231815; cursor: pointer;}
+.footer-bottom-menu a:nth-child(2)::before{ content: ""; font-size: 11px;  text-align: center; border-right: 1px solid #231815; margin: 0 20px; }
+.footer-bottom-menu a:nth-child(2)::after{ content: ""; font-size: 11px;  text-align: center; border-left: 1px solid #231815; margin: 0 20px; }
+.footer-bottom-menu a:nth-child(2){padding: 15px 0; }
+
+.footer-bottom-info{ display: inline-flex; font-size: 0.7em;}
+.footer-bottom-info li::after{ content: ""; font-size: 8px; text-align: center; border-left: 1px solid #231815; margin: 0 10px;}
+.footer-bottom-info li:nth-child(5)::after{ content: ""; border-left:none ; }
+
+.footer-bottom-adress{ min-width: 100%; font-size: 0.7em; display: inline-flex; }
+.footer-bottom-adress li::after{ content: ""; font-size: 2px; text-align: center; border-left: 1px solid #231815; margin: 0 10px;}
+
+.footer-bottom-sale{ font-size: 0.7em; display: inline-flex; }
+.footer-bottom-sale li::after{ content: ""; font-size: 8px; text-align: center; border-left: 1px solid #231815; margin: 0 10px;}
+.footer-bottom-sale li:nth-child(2)::after{ content: ""; border-left:none ; }
+
+.footer-sns{ min-width: 28%; }
+.footer-sns a{ display: inline-flex; padding:18px 20px;}
+.footer-sns a:nth-child(1){ background: url(./assets/images/icon-sns-instagram.png) no-repeat; }/*instagram*/
+.footer-sns a:nth-child(2){ background: url(./assets/images/icon-sns-youtube.png) no-repeat; margin: 0 6px;}/*youtube*/
+.footer-sns a:nth-child(3){ background: url(./assets/images/icon-sns-Cafe.png) no-repeat; }/*Cafe*/
+.footer-text-logo{
+  padding: 15px 80px;
+  background: url(./assets/images/footer-logo.png)0px 2px no-repeat;}
