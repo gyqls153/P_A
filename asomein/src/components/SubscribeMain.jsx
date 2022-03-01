@@ -1,25 +1,12 @@
-import { Link } from "react-router-dom";
 
+import SubscribeNav from "./SubscribeNav";
 import Comment from "./Comment";
 import '../assets/css/subscribe.css';
 
 function SubscribeMain(){
     return(
         <>
-            <div className="title__sec__color">
-                <div className="subscribe-title-box">
-                    <p>금융 ONLY</p>
-                    {/* <!-- <nav>
-                        <ul className="subscribe-menu">
-                            <li><a href="#">금융 ONLY</a></li>
-                            <li><a href="#">부동산 ONLY</a></li>
-                            <li><a href="#">금융 ONLY</a></li>
-                            <li><a href="#">금융 ONLY</a></li>
-                        </ul>
-                    </nav> --> */}
-                    <Link to="" />
-                </div>
-            </div>
+            <SubscribeNav />
 
             <section className="subscribe-section">
                 <div className="subscribe-sec-start">

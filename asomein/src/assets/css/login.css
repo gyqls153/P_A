@@ -31,9 +31,9 @@
 
 /* navigation - 서브페이지 및 해더바로 아래 메뉴 */
 .header__navi__wrap { width: 100%; display: inline-flex; align-items: center; padding-bottom: 40px; }
-nav{ display: inline-block; max-width: 100%; }
-nav ul{ display:flex; height: 50px;}
-nav ul li{ 
+.header__navi__wrap nav{ display: inline-block; max-width: 100%; }
+.header__navi__wrap nav ul{ display:flex; height: 50px;}
+.header__navi__wrap nav ul li{ 
   display: inline;
   width: 200px;
   padding: 12px 0;
@@ -42,7 +42,7 @@ nav ul li{
   letter-spacing: 1px;
   border: 1px solid #231815;
 }
-nav ul li:hover{
+.header__navi__wrap nav ul li:hover{
   transition: all 0.6s ease-in-out;
   transform: translateY(-10px);
   color: #FFF4F0;

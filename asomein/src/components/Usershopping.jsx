@@ -19,7 +19,7 @@ function Usershopping(){
                     </div>
                 </div>
 
-                <div className="angled-service-btn">
+                <div className="angled-service-btn-top">
                     <button type="button">전체 선택</button>
                     <button type="button">선택 삭제</button>     
                 </div>

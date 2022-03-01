@@ -1,9 +1,5 @@
 /* top-title */
-.title__sec__color{}
-.subscribe-title-box { display: flex; align-items: center; padding: 10px 0; background-color: #FF557D; }
 .subscribe-title-box p{ font-size: 21px; margin: 0 auto 0 44%; color: #FFF4F0; letter-spacing: 2px;}
-.subscribe-title-box a{ margin-right: 8%; padding: 16px; background: url(../images/icon-share.png)no-repeat;}
-
 /* 구독하기 */
 .subscribe-section{ min-width: 100%; }
 .subscribe-sec-start{ display: flex; justify-content: space-around; margin: 90px 0; }
