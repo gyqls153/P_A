@@ -1,7 +1,12 @@
+/* top-title */
+.title__sec__color{}
+.subscribe-title-box { display: flex; align-items: center; padding: 10px 0; background-color: #FF557D; }
+.subscribe-title-box p{ font-size: 21px; margin: 0 auto 0 44%; color: #FFF4F0; letter-spacing: 2px;}
+.subscribe-title-box a{ margin-right: 8%; padding: 16px; background: url(../images/icon-share.png)no-repeat;}
+
 /* 구독하기 */
 .subscribe-section{ min-width: 100%; }
 .subscribe-sec-start{ display: flex; justify-content: space-around; margin: 90px 0; }
-
 .subscribe-image{ width: 510px; height: 420px; background: url(../images/image-subscribe.png)no-repeat; }
 
 /* 월간구독 및 구매 및 가격 클릭 content */
@@ -41,8 +46,8 @@ select::-ms-expand { display: none; }
 .pay-info-box ul li:nth-child(5){ color: #FF557D; font-size: 15px;}
 .pay-info-box ul li:nth-child(6){ font-size: 15px; text-align: center; color: #FF557D; font-size: 27px; }
 
-.start-subscribe-btn{ display: flex; justify-content: space-between; margin: 30px 0; }
-.start-subscribe-btn button{ 
+.subs-payment-box .angled-service-btn{ display: flex; justify-content: space-between; margin: 30px 0; }
+.subs-payment-box .angled-service-btn button{ 
   width: 270px;
   padding: 10px 0;
   color: #FF557D;
@@ -51,12 +56,12 @@ select::-ms-expand { display: none; }
   border: none;
   background-color: rgba(255, 85, 125, 0.07) ;
 }
-.start-subscribe-btn button:nth-child(1) .btn-icon-cnt{ margin-right: 7px; padding: 7px 13px; background: url(../images/icons-shopping-paper-color.png)no-repeat; }
-.start-subscribe-btn button:nth-child(2) .btn-icon-cnt{ margin-right: 5px; padding: 6px 14px; background: url(../images/icon-card-paper-bag.png)-38px no-repeat; }
+.subs-payment-box .angled-service-btn button:nth-child(1) .btn-icon-cnt{ margin-right: 7px; padding: 7px 13px; background: url(../images/icons-shopping-paper-color.png)no-repeat; }
+.subs-payment-box .angled-service-btn button:nth-child(2) .btn-icon-cnt{ margin-right: 5px; padding: 6px 14px; background: url(../images/icon-card-paper-bag.png)-38px no-repeat; }
 
-.start-subscribe-btn button:hover{ color: #FFF4F0; background-color:#FF557D;}
-.start-subscribe-btn button:active{ color: #FFF4F0; background-color:#FF557D;}
-.start-subscribe-btn button:active:focus{border: none;}
+.subs-payment-box .angled-service-btn button:hover{ color: #FFF4F0; background-color:#FF557D;}
+.subs-payment-box .angled-service-btn button:active{ color: #FFF4F0; background-color:#FF557D;}
+.subs-payment-box .angled-service-btn button:active:focus{border: none;}
 /* text area */
 article{ max-width: 100%; height: 600px; background-color: #fff; margin: 100px 0; border-radius: 15px;}
 textarea{ width: 70%; height: 500px; margin: 30px 15%; }

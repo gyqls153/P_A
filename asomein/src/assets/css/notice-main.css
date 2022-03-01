@@ -24,10 +24,9 @@
   font-size: 16px;
 }
 .search-inner-selectBox{
-height: 30px;
+  height: 30px;
   background: transparent;
   text-align: center;
-  margin-right: 12px;
   padding: 0 7px 0 7px;
   letter-spacing: 3px;
   border: 1px solid #231815;
@@ -41,7 +40,17 @@ select::-ms-expand { display: none; }
   border: 1px solid #231815;
   background: url(../images/icon-search.png)4px 4px no-repeat;/*icon-location*/
 }
-
+/* 나의작성글 상단 selectBox style */
+.search-section-userInfo{ display: flex; justify-content: flex-end; }
+.search-inner-userInfo{ 
+  width: 160px;
+  height: 30px;
+  background: transparent;
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 0 7px 0 7px;
+  letter-spacing: 3px; 
+}
 /* table-list 공지사항 게시판 */
 .image-list-contents{ min-width: 100%; display: flex; padding: 29px 0; border-bottom: 1px dotted #231815;}
 .image-list-contents div img{

@@ -6,8 +6,8 @@ import '../assets/css/subscribe.css';
 function SubscribeMain(){
     return(
         <>
-         <div className="title__sec__box">
-                <div className="notice-title-box">
+            <div className="title__sec__color">
+                <div className="subscribe-title-box">
                     <p>금융 ONLY</p>
                     {/* <!-- <nav>
                         <ul className="subscribe-menu">

@@ -34,16 +34,35 @@
   /* 하단 설명 */
   .wait-info-ex{ font-size: 12px; color: #999892;}
   .wait-info-ex::before{ content:""; padding: 5px 17px; background: url(../images/icon-import-point.png)no-repeat; }
-/* 긴 버튼 스타일링 */
-.upload-btn{
-    width: 370px;
-    height: 40px;
-    border: none;
-    border-radius: 19px;
-    background-color: rgba(255, 85, 125, 0.07) ;
-    color: #FF557D;
-    margin: 30px 0; 
-    cursor: pointer;
-}
-.upload-btn:hover{ background-color: #FF557D; color: #fff; cursor: pointer; }
-.upload-btn:active{ background-color: #FF557D; color: #fff;cursor: pointer; }
+  /* 긴 버튼 스타일링 */
+  .upload-btn{
+      width: 370px;
+      height: 40px;
+      border: none;
+      border-radius: 19px;
+      background-color: rgba(255, 85, 125, 0.07) ;
+      color: #FF557D;
+      margin: 30px 0; 
+      cursor: pointer;
+  }
+  .upload-btn:hover{ background-color: #FF557D; color: #fff; cursor: pointer; }
+  .upload-btn:active{ background-color: #FF557D; color: #fff;cursor: pointer; }
+
+  /* 첨부파일 아이콘 및 section */
+  .icon-attachment span{ padding: 0px 13px; background: url(../images/icon-Attachments.png)no-repeat; }
+
+  /* User MyPonit section - Table 상단 현재 user 포인트 */
+  .mypoint-show-box{ padding: 10px 0; }
+  .mypoint-show-box p{ font-size: 20px; }
+  .mypoint-show-box p span{ color: #FF557D; }
+
+  /* 문의글 답변상태 색상으로 나타내기 */
+  .state-clear{
+    padding: 2px; 
+    width: 75px;
+    margin: 2px auto;
+    color: #FFF4F0;
+    font-size: 14px;
+    background-color: #FF557D; 
+  }
+  .state-wait{ color: #FF557D; text-align: center; }

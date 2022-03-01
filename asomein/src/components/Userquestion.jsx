@@ -1,7 +1,7 @@
 
 import { Link } from 'react-router-dom';
 import PageNation from './Pagenation';
-import '../assets/css/Userquestion.css';
+import '../assets/css/userquestion.css';
 
 function Userquestion(){
     return(
@@ -14,8 +14,8 @@ function Userquestion(){
                     </div>
                 </div>
 
-                <div class="search-section">
-                    <select class="search-inner-selectBox">
+                <div class="search-section-userInfo">
+                    <select class="search-inner-userInfo">
                         <option selected>전체보기</option>
                         <option value="">구독서비스</option>
                         <option value="">조회수</option>
@@ -42,7 +42,7 @@ function Userquestion(){
                                     <td class="number-list">5</td>
                                     <td class="using-line">구독서비스</td>
                                     <td class="tbs-notice">이렇게 이용해 보세요</td>
-                                    <td class="icon-attachment"><Link to="" /></td>
+                                    <td class="icon-attachment"><span></span></td>
                                     <td class="txt_Day">2021-11-30</td>
                                     <td class="answer-state"><span class="state-clear">답변완료</span></td>
                                 </tr>
@@ -50,7 +50,7 @@ function Userquestion(){
                                     <td class="number-list">4</td>
                                     <td class="using-line">구독서비스 사용 후기</td>
                                     <td class="tbs-notice">이렇게 이용해 보세요.</td>
-                                    <td class="icon-attachment"><Link to="" /></td>
+                                    <td class="icon-attachment"><span></span></td>
                                     <td class="txt_Day">2021-11-30</td>
                                     <td class="answer-state"><span class="state-wait">답변대기</span></td>
                                 </tr>

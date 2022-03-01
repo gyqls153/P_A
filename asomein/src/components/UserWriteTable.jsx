@@ -13,8 +13,8 @@ function UserWriteTable(){
                     </div>
                 </div>
 
-                <div class="search-section">
-                    <select class="search-inner-selectBox">
+                <div class="search-section-userInfo">
+                    <select class="search-inner-userInfo">
                         <option selected>전체보기</option>
                         <option value="">구독서비스</option>
                         <option value="">조회수</option>
@@ -41,7 +41,7 @@ function UserWriteTable(){
                                     <td class="number-list">5</td>
                                     <td class="using-line">구독서비스</td>
                                     <td class="tbs-notice">이렇게 이용해 보세요. (12)</td>
-                                    <td class="icon-attachment"><Link to="/" /></td>
+                                    <td class="icon-attachment"><span></span></td>
                                     <td class="txt_Day">2021-11-30</td>
                                     <td class="view-num">234</td>
                                 </tr>
@@ -49,7 +49,7 @@ function UserWriteTable(){
                                     <td class="number-list">4</td>
                                     <td class="using-line">구독서비스 사용 후기</td>
                                     <td class="tbs-notice">정말 잘 활용되었습니다. (23)</td>
-                                    <td class="icon-attachment"><Link to="/" /></td>
+                                    <td class="icon-attachment"><span></span></td>
                                     <td class="txt_Day">2021-11-30</td>
                                     <td class="view-num">155</td>
                                 </tr>

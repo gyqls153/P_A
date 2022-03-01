@@ -32,13 +32,13 @@ function UserPointTable(){
                                     <td className="txt_Day">2021-12-06</td>
                                     <td className="tbs-notice">최초 신규 회원가입</td>
                                     <td className="earn-plus">1,000</td>
-                                    <td className="earn-using">입금대기</td>
+                                    <td className="earn-using"></td>
                                 </tr>
                                 <tr>
                                     <td className="txt_Day">2021-12-06</td>
                                     <td className="tbs-notice">이용후기 작성확인</td>
                                     <td className="earn-plus">1,000</td>
-                                    <td className="earn-using">입금대기</td>
+                                    <td className="earn-using"></td>
                                 </tr>
                                 <tr>
                                     <td className="txt_Day">2021-12-06</td>
