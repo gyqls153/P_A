@@ -9,10 +9,9 @@ function Header(propss)
                 어썸인 서비스 소개
             </div>
             <nav className="header-menu-list">
-                <Link to="/" className="link">로그인</Link>
-                <Link to="/Test">회원가입</Link>
+                <Link to="/login" className="link">로그인</Link>
+                <Link to="/join">회원가입</Link>
                 <Link to="/">장바구니</Link>
-                {/* <Route path="/test" exact={true} element={<></>} /> */}
             </nav>
         </header>
     )

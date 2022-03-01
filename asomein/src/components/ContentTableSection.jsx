@@ -10,7 +10,7 @@ function Mainboxtable(){
                 </ul>
                 <div className="search-inner-box">
                     <div className="bbs-list-search">
-                        <select id="" className="search-inner-selectBox">
+                        <select id="" className="search-inner-selectBox-main">
                             <option selected>전체</option>
                             <option>Only부동산</option>
                             <option>Only금융</option>
