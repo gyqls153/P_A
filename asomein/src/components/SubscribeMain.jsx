@@ -68,7 +68,7 @@ function SubscribeMain(){
                                 <li>24,000</li>
                             </ul>
                         </div>
-                        <div className="start-subscribe-btn">
+                        <div className="angled-service-btn">
                             <button><i className="btn-icon-cnt"></i>구독 시작하기</button>
                             <button><i className="btn-icon-cnt"></i>장바구니</button>
                         </div>

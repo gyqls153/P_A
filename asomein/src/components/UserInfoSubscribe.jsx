@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import '../assets/css/mySubscribe.css';
+
 
 function Userinfosubscribe(){
     return(
@@ -21,7 +21,7 @@ function Userinfosubscribe(){
                         <p className="day-subscribe">구독 서비스 기간 :
                             <span>2022-01-23 ~ 2022-08-23</span>
                         </p>
-                        <div className="subscribe-service-btn">
+                        <div className="angled-service-btn">
                             <button type="button">구독연장</button>
                             <button type="button">구독취소</button>
                             <button type="button">결제내역</button>    
@@ -37,7 +37,7 @@ function Userinfosubscribe(){
                         <p className="day-subscribe">구독 서비스 기간 :
                             <span>2022-01-15 ~ 2022-05-23</span>
                         </p>
-                        <div className="subscribe-service-btn">
+                        <div className="angled-service-btn">
                             <button type="button">구독연장</button>
                             <button type="button">구독취소</button>
                             <button type="button">결제내역</button>    

@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import '../assets/css/userInfo.css';
+import '../assets/css/mySubscribe.css';
 
 function UseInfo (){
     return(

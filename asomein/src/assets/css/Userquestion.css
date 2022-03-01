@@ -1,11 +1,14 @@
 
+/* 문의하기 게시판 */
 table{
 	min-width: 100%;
 	font-size: 15px;
     border-collapse: collapse;
 }
+
 table tr td{ border-bottom:1px dotted #9F9D99; }
 table thead tr td{text-align: center; padding: 14px 0; border: 1px solid #231815; }
+.support-tbody-list{  }
 .support-tbody-list tr td{ text-align: center; padding: 20px 0; }
 .support-tbody-list .tbs-notice { text-align: left; padding-left: 8%;}
 .support-tbody-list a{

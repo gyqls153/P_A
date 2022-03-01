@@ -12,13 +12,13 @@ function UserShoppingPayment(){
                 </div>
             </div>
 
-            <h3>주문상품</h3>
+            <h3 className="shop-payment-title">주문상품</h3>
             
             <div className="tab_content">
                 <div className="notice-list-inner">
                     <table>
                         <thead>
-                            <tr scope="col" className="support-tb-inner">
+                            <tr className="support-tb-inner">
                                 <td>상품명</td>
                                 <td>기간</td>
                                 <td>상품가격</td>
@@ -31,9 +31,8 @@ function UserShoppingPayment(){
                                     <Link to="/">최신구독30회 패키지</Link>
                                 </td>
                                 <td className="txt_Day">3개월</td>
-                                <td className="price">79,000원</td>
+                                <td className="price-pay">79,000원</td>
                                 <td className="">2020-11-30</td>
-                                <td className=""><i className="icon-Delet"></i></td>
                             </tr>
                         </tbody> 
                     </table>
@@ -60,20 +59,22 @@ function UserShoppingPayment(){
                     </form>
                 </div>
 
-                <div className="asomein-point">
-                    <h3>어썸인 포인트</h3><span>(2,000P)</span>
-                    <div className="point-input-box">
-                        <input type="text" />
-                        <label for="useinfo">1,000 포인트부터 사용 가능합니다.</label>
+                <div className="point-pay-total">
+                    <div className="asomein-point">
+                        <h3>어썸인 포인트<span>(2,000P)</span></h3>
+                        <div className="point-input-box">
+                            <input type="text" id="myPoint" name="" value="" placeholder="사용할 포인트를 입력하세요." />
+                            <label for="useinfo">1,000 포인트부터 사용 가능합니다.</label>
+                        </div>
                     </div>
-                </div>
 
-                <div className="asomein-total-pay">
-                    <h3>최종 결제정보</h3>
-                    <div className="point-total-btn-box">
-                        <p>사용포인트<span>-2,000</span>원</p>
-                        <p>총 결제금액 <span className="total-num-data">79,000원</span></p>
-                        <button type="button">결제하기</button>
+                    <div className="asomein-total-pay">
+                        <h3>최종 결제정보</h3>
+                        <div className="point-total-btn-box">
+                            <p>사용포인트<span>-2,000</span>원</p>
+                            <p>총 결제금액 <span className="total-num-data">79,000원</span></p>
+                            <button type="button" className="angled-total-btn">결제하기</button>
+                        </div>
                     </div>
                 </div>
 

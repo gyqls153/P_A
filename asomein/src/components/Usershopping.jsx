@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import UserShoppingPayment from './UserShoppingPayment';
-
+import '../assets/css/userShopping.css';
 
 function Usershopping(){
 
@@ -19,7 +19,7 @@ function Usershopping(){
                     </div>
                 </div>
 
-                <div className="notice__button__box">
+                <div className="angled-service-btn">
                     <button type="button">전체 선택</button>
                     <button type="button">선택 삭제</button>     
                 </div>
@@ -44,15 +44,15 @@ function Usershopping(){
                                         <Link to="">최신구독30회 패키지</Link>
                                     </td>
                                     <td className="txt_Day">3개월</td>
-                                    <td className="price">79,000원</td>
+                                    <td className="price-shop">79,000원</td>
                                     <td className="">2020-11-30</td>
-                                    <td className=""><i className="icon-Delet"></i></td>
+                                    <td className="Delete"><i className="icon-Delet"></i></td>
                                 </tr>
                                 <tr>
                                     <td className="check-list"><input type="checkbox" /></td>
                                     <td className="tbs-notice"><Link to="">금융ONLY</Link></td>
                                     <td className="txt_Day">1년</td>
-                                    <td className="price">240,000원</td>
+                                    <td className="price-shop">240,000원</td>
                                     <td className="apply-day">2020-10-30</td>
                                     <td className="Delete"><i className="icon-Delet"></i></td>
                                 </tr>
@@ -60,7 +60,7 @@ function Usershopping(){
                                     <td className="check-list"><input type="checkbox" /></td>
                                     <td className="tbs-notice"><Link to=""></Link></td>
                                     <td className="txt_Day"></td>
-                                    <td className="price"></td>
+                                    <td className="price-shop"></td>
                                     <td className="apply-day"></td>
                                     <td className="Delete"><i className="icon-Delet"></i></td>
                                 </tr>
@@ -68,7 +68,7 @@ function Usershopping(){
                                     <td className="check-list"><input type="checkbox" /></td>
                                     <td className="tbs-notice"><Link to=""></Link></td>
                                     <td className="txt_Day"></td>
-                                    <td className="price"></td>
+                                    <td className="price-shop"></td>
                                     <td className="apply-day"></td>
                                     <td className="Delete"><i className="icon-Delet"></i></td>
                                 </tr>
@@ -76,7 +76,7 @@ function Usershopping(){
                                     <td className="check-list"><input type="checkbox" /></td>
                                     <td className="tbs-notice"><Link to=""></Link></td>
                                     <td className="txt_Day"></td>
-                                    <td className="price"></td>
+                                    <td className="price-shop"></td>
                                     <td className="apply-day"></td>
                                     <td className="Delete"><i className="icon-Delet"></i></td>
                                 </tr>
@@ -87,12 +87,13 @@ function Usershopping(){
                             <p>총 결제금액 <span className="total-num-data">79,000원</span></p>
                         </div> 
                     </div>
+                    <div className="angled-service-btn">
+                        <button type="button">구독하러가기</button>
+                        <button type="button" onClick={() => setPayment(true)}>선택상품결제</button>
+                        <button type="button" onClick={() => setPayment(true)}>전체상품결제</button>    
+                    </div>
                 </div>
-                <div className="payment-btn">
-                    <button type="button">구독하러가기</button>
-                    <button type="button" onClick={() => setPayment(true)}>선택상품결제</button>
-                    <button type="button" onClick={() => setPayment(true)}>전체상품결제</button>    
-                </div>
+                
             </section> : <UserShoppingPayment/>
         }
        </>
