@@ -36,7 +36,7 @@ function UserPayment(){
                                     <td className="txt_Day">카드결제</td>
                                     <td className="total-pay">625,000원</td>
                                     <td className="paystate">입금대기</td>
-                                    <td className="last"><span className="clear">내역삭제</span></td>
+                                    <td className="user-receipt"><span className="clear">내역삭제</span></td>
                                 </tr>
                                 <tr>
                                     <td className="number-list">282</td>
@@ -45,9 +45,9 @@ function UserPayment(){
                                     <td className="txt_Day">무통장입금</td>
                                     <td className="total-pay">625,000원</td>
                                     <td className="paystate">입금대기</td>
-                                    <td className="last">
-                                        <span className="clear">영수증출력</span>
-                                        <span className="clear">전표출력</span>
+                                    <td className="user-receipt">
+                                        <span className="re-print">영수증출력</span>
+                                        <span className="print">전표출력</span>
                                     </td>
                                 </tr>
                                 <tr>
@@ -57,7 +57,7 @@ function UserPayment(){
                                     <td className="txt_Day">계좌이체</td>
                                     <td className="total-pay">625,000원</td>
                                     <td className="paystate">입금대기</td>
-                                    <td className="last"><span className="clear">내역삭제</span></td>
+                                    <td className="user-receipt"><span className="clear">내역삭제</span></td>
                                 </tr>
                                 <tr>
                                     <td className="number-list">222</td>
@@ -66,7 +66,7 @@ function UserPayment(){
                                     <td className="txt_Day">모바일 신용카드</td>
                                     <td className="total-pay">625,000원</td>
                                     <td className="paystate">입금대기</td>
-                                    <td className="last"><span className="clear">내역삭제</span></td>
+                                    <td className="user-receipt"><span className="clear">내역삭제</span></td>
                                 </tr>
                                 <tr>
                                     <td className="number-list">183</td>
@@ -75,7 +75,7 @@ function UserPayment(){
                                     <td className="txt_Day"></td>
                                     <td className="total-pay"></td>
                                     <td className="paystate"></td>
-                                    <td className="last"></td>
+                                    <td className="user-receipt"></td>
                                 </tr>
                             </tbody>  
                         </table>

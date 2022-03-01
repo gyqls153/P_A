@@ -3,6 +3,7 @@
 .notice__table__box{ display: flex; justify-content: space-between; margin-bottom: 15px;}
 .notice__table__box span{ font-size: 12px;color: #000; margin: 0 5px; word-spacing: 2px; }
 .notice__table__box p{ font-size: 12px; color: #9F9D99; word-spacing: 2px;}
+
 .search-section{ display: flex; align-items: center; }
 .search-section input{
   width: 256px;
@@ -33,28 +34,22 @@ select::-ms-expand { display: none; }
 }
 
 /* 어썸인 문의게시판 */
-table{
-	min-width: 100%;
-	font-size: 15px;
-    border-collapse: collapse;
-}
-table tr td{ border-bottom:1px dotted #9F9D99; }
-table thead tr td{text-align: center; padding: 14px 0; border: 1px solid #231815; }
-.support-tbody-list tr td{ text-align: center; padding: 20px 0; }
-.support-tbody-list .tbs-notice { text-align: left; padding-left: 8%;}
-.support-tbody-list a{
-	text-align: left;
-	text-decoration: none;
-	color: #231815;
-}
-.icon-lock{padding:15px; background: url();}
+.support-tbody-list a{ text-align: left; text-decoration: none; color: #231815; }
+.icon-lock{padding:15px; background: url(../images/icon-lock.png)no-repeat;}
 .support-tbody-list .last{ text-align: center; }
-tbody tr:last-child{ border-bottom: 1px solid #231815; }
+tbody tr:last-child{ border-bottom: 0.5px solid #231815; }
 .support-tbody-list .subject_type,
 .support-tbody-list .txt_dDay
 { text-align: center;}
-.last{ font-size: 15px; font-weight: 400; color: #FF557D; }
-tbody tr .clear{background-color: #FF557D; padding: 3px; color: #FFF4F0;font-size: 14px;}
+.support-tbody-list tr .user-receipt span {
+  display: table;
+  padding: 2px; 
+  width: 75px;
+  margin: 2px auto;
+  color: #FFF4F0;
+  font-size: 14px;
+  background-color: #FF557D; 
+}
 .icon-lock{ margin: 0 8px; padding: 2px 9px; background: url(../images/icon-lock.png)no-repeat; }
 .icon-answer { padding: 1px 7px; margin: 0 11px 0 30px; background: url(../images/icon-answer.png)no-repeat; }
 

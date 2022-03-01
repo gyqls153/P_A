@@ -1,6 +1,6 @@
 
 /* 공지사항 게시판 */
-.notice__Wrap{ max-width: 85%; margin: 0 auto; }
+.notice__Wrap{ max-width: 85%; margin: 0 auto 50px auto; }
 /* 공지사항/새소식 title */
 /*상단 타이틀 styled*/
 .notice-title-box { display: flex; align-items: center; padding: 30px 0 75px 0; }

@@ -8,14 +8,13 @@
 .support-tb-inner td:first-child{ padding: 0 10px; }
 .notice-list-inner table tr td{ border-bottom:1px dotted #9F9D99; }
 .notice-list-inner table thead tr td{text-align: center; padding: 14px 0; border: 1px solid #231815; }
-.notice-list-inner .support-tbody-list tr td{ text-align: center; padding: 30px 0; }
-.notice-list-inner .support-tbody-list .tbs-notice { text-align: left; padding-left: 8%;}
+.notice-list-inner .support-tbody-list tr td{ text-align: center; padding: 20px 0; }
+/* .notice-list-inner .support-tbody-list .tbs-notice { text-align: left; padding-left: 8%;} */
 .notice-list-inner .support-tbody-list a{
 	text-align: left;
 	text-decoration: none;
 	color: #231815;
 }
-.notice-list-inner .support-tbody-list .last{ text-align: center; }
 .notice-list-inner table tbody tr:last-child{ border-bottom: 1px solid #231815; }
 .notice-list-inner .support-tbody-list .subject_type,
 .notice-list-inner .support-tbody-list .txt_dDay
@@ -37,11 +36,11 @@
 .info__Wrap .angled-service-btn{ display: flex; justify-content: flex-start; margin: 30px 0;}
 .tab_content .angled-service-btn{ display: flex; justify-content: flex-end; margin: 30px 0; }
 .angled-service-btn button{ 
-  width: 90px;
+  width: 100px;
   padding: 7px;
   margin-left: 7px;
   color: #FF557D;
-  font-size: 12px;
+  font-size: 13px;
   letter-spacing: 0.5px;
   border: none;
   background-color: rgba(255, 85, 125, 0.07) ;

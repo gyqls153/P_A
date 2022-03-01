@@ -31,7 +31,9 @@
   .user-join input::placeholder{letter-spacing: 1px; color: #9F9D99;}
   .user-join input::-webkit-input-placeholder{letter-spacing: 1px; color: #9F9D99;}
   .user-join input::-ms-input-placeholder{letter-spacing: 1px; color: #9F9D99;}
-
+  /* 하단 설명 */
+  .wait-info-ex{ font-size: 12px; color: #999892;}
+  .wait-info-ex::before{ content:""; padding: 5px 17px; background: url(../images/icon-import-point.png)no-repeat; }
 /* 긴 버튼 스타일링 */
 .upload-btn{
     width: 370px;
