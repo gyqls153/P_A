@@ -26,7 +26,7 @@ function Login() {
 
                             <div className="show-page-line-styled">
                                 <p><Link to="/join" element={<Joinasomein />} >회원가입</Link></p>
-                                <p><Link to="/Login"element={<Login />} >로그인</Link></p>
+                                <p><Link to="/login"element={<Login />} >로그인</Link></p>
                             </div>
                             
                             <p>소셜아이디로 간단하게 로그인하세요</p>

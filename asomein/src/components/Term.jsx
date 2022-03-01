@@ -50,7 +50,7 @@ function Terms()
                     </div>
                 </div>
                 
-                <button type="submit">이메일로 회원가입하기</button>
+                <button type="submit" className="upload-btn">이메일로 회원가입하기</button>
             </div>
         </div>
 

@@ -13,10 +13,7 @@
   }
   /* FormBox section */
   .check-icon{ padding: 0 9px; background: url(../images/icon-check.png)no-repeat; }
-  .Login-form-box{
-    min-width: 100%;
-    display: block;
-  }
+  .Login-form-box{ min-width: 100%; display: block; }
   .user-join{min-width: 100%; height: 50px;margin: 30px 0;}
   .user-join label{ font-size: 17px; }
   .user-join input{ 
@@ -42,7 +39,7 @@
   .user-join input::-ms-input-placeholder{letter-spacing: 1px; color: #9F9D99;}
 
 /* 긴 버튼 스타일링 */
-button{
+.upload-btn{
     width: 370px;
     height: 40px;
     border: none;
@@ -52,5 +49,5 @@ button{
     margin: 30px 0; 
     cursor: pointer;
 }
-button:hover{ background-color: #FF557D; color: #fff; cursor: pointer; }
-button:active{ background-color: #FF557D; color: #fff;cursor: pointer; }
+.upload-btn:hover{ background-color: #FF557D; color: #fff; cursor: pointer; }
+.upload-btn:active{ background-color: #FF557D; color: #fff;cursor: pointer; }

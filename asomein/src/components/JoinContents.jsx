@@ -29,7 +29,7 @@ function Joinasomeinform(){
                     <input type="text" name="phone-number" value={""} />
                 </div>
 
-                <button type="submit">인증번호받기</button>
+                <button type="submit" className="upload-btn">인증번호받기</button>
             </form>
         </>
     )
