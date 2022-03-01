@@ -27,8 +27,8 @@
 .user-id-timeline span{ font-size: 13px; color: #9F9D99; }
 .user-in-comment{ font-size: 15px; line-height: 20px; word-spacing: 1px; }
 
-form{ border: 1px solid #231815; margin: 30px 0; }
-form input{ 
+.comment form{ border: 1px solid #231815; margin: 30px 0; }
+.comment form input{ 
   background-color: transparent;
   border: none;
   padding: 15px 25px;
