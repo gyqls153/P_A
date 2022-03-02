@@ -14,6 +14,7 @@ import UserManagement from './pages/UserSetting';
 import Main from './Components/Main';
 import Subscribemain from './pages/Subscribe';
 import Joinasomein from './Components/JoinAsomein';
+import ModalLayout from './Components/ModalLayout';
 SwiperCore.use([ Pagination, Autoplay, Mousewheel ])
 
 
@@ -35,6 +36,8 @@ function App() {
                             <Route path="/notice" element={<Notice />} />
                             <Route path="/subscribe" element={<Subscribemain />} />
                             <Route path="/userinfo" element={<UserManagement />} />
+                            <Route path="/modal" element={<ModalLayout />} />
+                            
                         </Routes>
                     </Router>
                 </div>
