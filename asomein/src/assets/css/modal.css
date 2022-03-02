@@ -27,18 +27,21 @@
   .modal > .Main-contents-section {
     width: 100%;
     max-width: 360px;
-    margin: 0 auto;
+    margin: 30px auto;
+    padding: 40px 0;
     border-radius: 0.3rem;
     background-color: #FF557D;
     /* 팝업이 열릴때 스르륵 열리는 효과 */
     animation: modal-show 0.3s;
     overflow: hidden;
   }
-  .modal > .Main-contents-section > header {
+  /* .modal > .Main-contents-section > header {
     position: relative;
-    padding: 16px 64px 16px 16px;
-    font-weight: 700;
-  }
+  } */
+  /* .modal > .Main-contents-section > header .close {
+    position: relative;
+    border: 1px solid white;
+  } */
   .modal > .Main-contents-section > header button {
     position: absolute;
     top: 15px;
@@ -51,14 +54,25 @@
     background-color: transparent;
   }
   .modal > .Main-contents-section > main {
-    padding: 16px;
+    padding: 20px 0 10px 0;
   }
+  .sec-modal-unknow{
+    max-width: 75%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 11px;
+  }
+  .sec-modal-unknow p{ color: #fff; }
+  .sec-modal-unknow p:nth-child(1){ font-size: 21px; font-weight: 300; }
+  .sec-modal-unknow p:nth-child(2){ margin: 20px 0; }
   .modal > .Main-contents-section > .closing-page-btn {
     padding: 12px 0;
     max-width: 100%;
   }
+
   .modal > .Main-contents-section > .closing-page-btn button {
-    padding: 12px 90px;
+    padding: 12px 0px;
+    width: 210px;
     color: #fff;
     border: 1px solid #fff;
     background-color: transparent;
