@@ -36,7 +36,6 @@ function App() {
                             <Route path="/notice" element={<Notice />} />
                             <Route path="/subscribe" element={<Subscribemain />} />
                             <Route path="/userinfo" element={<UserManagement />} />
-                            <Route path="/modal" element={<ModalLayout />} />
                             
                         </Routes>
                     </Router>
