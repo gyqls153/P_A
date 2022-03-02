@@ -14,7 +14,6 @@ import UserManagement from './pages/UserSetting';
 import Main from './Components/Main';
 import Subscribemain from './pages/Subscribe';
 import Joinasomein from './Components/JoinAsomein';
-import ModalLayout from './Components/ModalLayout';
 SwiperCore.use([ Pagination, Autoplay, Mousewheel ])
 
 
